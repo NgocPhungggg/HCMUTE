@@ -1,0 +1,928 @@
+2024.05.03 19:54:54 INFO  Started: Metals version 1.3.0 in folders 'D:\BDE (Big Data Essential)\Final Project' for client Visual Studio Code 1.89.0.
+SLF4J: Class path contains multiple SLF4J providers.
+SLF4J: Found provider [scribe.slf4j.ScribeServiceProvider@634a9a1a]
+SLF4J: Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@594d878c]
+SLF4J: See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual provider is of type [scribe.slf4j.ScribeServiceProvider@634a9a1a]
+2024.05.03 19:54:54 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.05.03 19:54:58 INFO  Running List(C:\Users\admin\AppData\Local\Coursier\data\bin\scala-cli.BAT, setup-ide, D:\BDE (Big Data Essential)\Final Project)
+2024.05.03 19:54:58 INFO  Attempting to connect to the build server...
+2024.05.03 19:54:58 INFO  Running BSP server List(C:\Users\admin\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, D:\BDE (Big Data Essential)\Final Project\.scala-build\ide-options-v2.json, D:\BDE (Big Data Essential)\Final Project)
+2024.05.03 19:54:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\BDE (Big Data Essential)\Final Project\.metals\bsp.trace.json or C:\Users\admin\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.05.03 19:54:59 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-frontend_2.12/1.5.17-sc-1/bloop-frontend_2.12-1.5.17-sc-1.pom
+2024.05.03 19:55:00 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-frontend_2.12/1.5.17-sc-1/bloop-frontend_2.12-1.5.17-sc-1.pom
+2024.05.03 19:55:00 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/2.0.0/bloop-config_2.12-2.0.0.pom
+2024.05.03 19:55:00 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.19/scala-library-2.12.19.pom
+2024.05.03 19:55:00 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/libdaemon/libdaemon_2.12/0.0.11/libdaemon_2.12-0.0.11.pom
+2024.05.03 19:55:00 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/scala-debug-adapter_2.12/4.0.3/scala-debug-adapter_2.12-4.0.3.pom
+2024.05.03 19:55:00 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.4.14/logback-classic-1.4.14.pom
+2024.05.03 19:55:00 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-backend_2.12/1.5.17-sc-1/bloop-backend_2.12-1.5.17-sc-1.pom
+2024.05.03 19:55:00 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/2.0.0/bloop-config_2.12-2.0.0.pom
+2024.05.03 19:55:00 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/github/alexarchambault/case-app_2.12/2.0.6/case-app_2.12-2.0.6.pom
+2024.05.03 19:55:00 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/github/alexarchambault/case-app_2.12/2.0.6/case-app_2.12-2.0.6.pom
+2024.05.03 19:55:00 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/scala-debug-adapter_2.12/4.0.3/scala-debug-adapter_2.12-4.0.3.pom
+2024.05.03 19:55:00 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.4.14/logback-classic-1.4.14.pom
+2024.05.03 19:55:01 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/libdaemon/libdaemon_2.12/0.0.11/libdaemon_2.12-0.0.11.pom
+2024.05.03 19:55:01 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-backend_2.12/1.5.17-sc-1/bloop-backend_2.12-1.5.17-sc-1.pom
+2024.05.03 19:55:02 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.19/scala-library-2.12.19.pom
+2024.05.03 19:55:02 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.4.14/logback-parent-1.4.14.pom
+2024.05.03 19:55:03 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.4.14/logback-parent-1.4.14.pom
+2024.05.03 19:55:03 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.12/0.4.1/sourcecode_2.12-0.4.1.pom
+2024.05.03 19:55:03 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/github/alexarchambault/case-app-annotations_2.12/2.0.6/case-app-annotations_2.12-2.0.6.pom
+2024.05.03 19:55:03 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-shared_2.12/1.5.17-sc-1/bloop-shared_2.12-1.5.17-sc-1.pom
+2024.05.03 19:55:03 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/zipkin/brave/brave/5.18.1/brave-5.18.1.pom
+2024.05.03 19:55:03 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/directory-watcher/0.8.0+6-f651bd93/directory-watcher-0.8.0+6-f651bd93.pom
+2024.05.03 19:55:03 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.4.14/logback-core-1.4.14.pom
+2024.05.03 19:55:03 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/zipkin/brave/brave/5.18.1/brave-5.18.1.pom
+2024.05.03 19:55:03 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.11.0/scala-collection-compat_2.12-2.11.0.pom
+2024.05.03 19:55:03 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/directory-watcher/0.8.0+6-f651bd93/directory-watcher-0.8.0+6-f651bd93.pom
+2024.05.03 19:55:03 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.9.1/parsers_2.12-4.9.1.pom
+2024.05.03 19:55:03 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-shared_2.12/1.5.17-sc-1/bloop-shared_2.12-1.5.17-sc-1.pom
+2024.05.03 19:55:03 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.19/scala-reflect-2.12.19.pom
+2024.05.03 19:55:03 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/github/alexarchambault/case-app-annotations_2.12/2.0.6/case-app-annotations_2.12-2.0.6.pom
+2024.05.03 19:55:03 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/lihaoyi/pprint_2.12/0.9.0/pprint_2.12-0.9.0.pom
+2024.05.03 19:55:03 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.11.0/scala-collection-compat_2.12-2.11.0.pom
+2024.05.03 19:55:03 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/zeroturnaround/zt-zip/1.17/zt-zip-1.17.pom
+2024.05.03 19:55:03 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.9.1/parsers_2.12-4.9.1.pom
+2024.05.03 19:55:03 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/github/alexarchambault/case-app-util_2.12/2.0.6/case-app-util_2.12-2.0.6.pom
+2024.05.03 19:55:03 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.19/scala-reflect-2.12.19.pom
+2024.05.03 19:55:03 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.7/slf4j-api-2.0.7.pom
+2024.05.03 19:55:03 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/lihaoyi/pprint_2.12/0.9.0/pprint_2.12-0.9.0.pom
+2024.05.03 19:55:03 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/nailgun-server/1.0.7/nailgun-server-1.0.7.pom
+2024.05.03 19:55:03 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.12/0.4.1/sourcecode_2.12-0.4.1.pom
+2024.05.03 19:55:03 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/test-agent/1.9.9/test-agent-1.9.9.pom
+2024.05.03 19:55:03 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.4.14/logback-core-1.4.14.pom
+2024.05.03 19:55:03 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/com-microsoft-java-debug-core/0.34.0+27/com-microsoft-java-debug-core-0.34.0+27.pom
+2024.05.03 19:55:03 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/zeroturnaround/zt-zip/1.17/zt-zip-1.17.pom
+2024.05.03 19:55:03 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-ivy_2.12/1.9.3/librarymanagement-ivy_2.12-1.9.3.pom
+2024.05.03 19:55:03 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/github/alexarchambault/case-app-util_2.12/2.0.6/case-app-util_2.12-2.0.6.pom
+2024.05.03 19:55:03 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.12/7.3.8/scalaz-core_2.12-7.3.8.pom
+2024.05.03 19:55:03 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.7/slf4j-api-2.0.7.pom
+2024.05.03 19:55:03 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/zipkin/reporter2/zipkin-sender-urlconnection/2.17.2/zipkin-sender-urlconnection-2.17.2.pom
+2024.05.03 19:55:05 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/test-agent/1.9.9/test-agent-1.9.9.pom
+2024.05.03 19:55:05 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-ivy_2.12/1.9.3/librarymanagement-ivy_2.12-1.9.3.pom
+2024.05.03 19:55:05 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/monix/monix_2.12/3.2.0/monix_2.12-3.2.0.pom
+2024.05.03 19:55:05 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/zipkin/reporter2/zipkin-sender-urlconnection/2.17.2/zipkin-sender-urlconnection-2.17.2.pom
+2024.05.03 19:55:05 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.4.0/jsoniter-scala-core_2.12-2.4.0.pom
+2024.05.03 19:55:05 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/nailgun-server/1.0.7/nailgun-server-1.0.7.pom
+2024.05.03 19:55:05 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/com-microsoft-java-debug-core/0.34.0+27/com-microsoft-java-debug-core-0.34.0+27.pom
+2024.05.03 19:55:05 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.12/7.3.8/scalaz-core_2.12-7.3.8.pom
+2024.05.03 19:55:05 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-util/9.7/asm-util-9.7.pom
+2024.05.03 19:55:05 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.4.0/jsoniter-scala-core_2.12-2.4.0.pom
+2024.05.03 19:55:05 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/ow2/asm/asm-util/9.7/asm-util-9.7.pom
+2024.05.03 19:55:08 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/monix/monix_2.12/3.2.0/monix_2.12-3.2.0.pom
+2024.05.03 19:55:08 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/2.0.7/slf4j-parent-2.0.7.pom
+2024.05.03 19:55:08 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/zipkin/reporter2/zipkin-reporter-parent/2.17.2/zipkin-reporter-parent-2.17.2.pom
+2024.05.03 19:55:08 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/zipkin/brave/brave-parent/5.18.1/brave-parent-5.18.1.pom
+2024.05.03 19:55:08 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/zipkin/reporter2/zipkin-reporter-parent/2.17.2/zipkin-reporter-parent-2.17.2.pom
+2024.05.03 19:55:08 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/zipkin/brave/brave-parent/5.18.1/brave-parent-5.18.1.pom
+2024.05.03 19:55:11 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/2.0.7/slf4j-parent-2.0.7.pom
+2024.05.03 19:55:11 INFO  BSP server: Downloading https://repo1.maven.org/maven2/commons-io/commons-io/2.15.1/commons-io-2.15.1.pom
+2024.05.03 19:55:11 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/zipkin/reporter2/zipkin-reporter-brave/2.17.2/zipkin-reporter-brave-2.17.2.pom
+2024.05.03 19:55:11 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.pom
+2024.05.03 19:55:11 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/zipkin/zipkin2/zipkin/2.27.0/zipkin-2.27.0.pom
+2024.05.03 19:55:11 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/9.7/asm-tree-9.7.pom
+2024.05.03 19:55:11 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.pom
+2024.05.03 19:55:11 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/zipkin/reporter2/zipkin-reporter-brave/2.17.2/zipkin-reporter-brave-2.17.2.pom
+2024.05.03 19:55:11 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.13.3.2/jsoniter-scala-core_2.12-2.13.3.2.pom
+2024.05.03 19:55:11 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.pom
+2024.05.03 19:55:11 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/monix/monix-eval_2.12/3.2.0/monix-eval_2.12-3.2.0.pom
+2024.05.03 19:55:11 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.13.3.2/jsoniter-scala-core_2.12-2.13.3.2.pom
+2024.05.03 19:55:11 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.pom
+2024.05.03 19:55:11 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/monix/monix-eval_2.12/3.2.0/monix-eval_2.12-3.2.0.pom
+2024.05.03 19:55:11 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc_2.12/1.9.5/zinc_2.12-1.9.5.pom
+2024.05.03 19:55:11 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/zipkin/zipkin2/zipkin/2.27.0/zipkin-2.27.0.pom
+2024.05.03 19:55:11 INFO  BSP server: Downloading https://repo1.maven.org/maven2/net/jpountz/lz4/lz4/1.3.0/lz4-1.3.0.pom
+2024.05.03 19:55:11 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc_2.12/1.9.5/zinc_2.12-1.9.5.pom
+2024.05.03 19:55:11 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bsp4s_2.12/2.1.1/bsp4s_2.12-2.1.1.pom
+2024.05.03 19:55:11 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.pom
+2024.05.03 19:55:11 INFO  BSP server: Downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/4.4.0/jna-platform-4.4.0.pom
+2024.05.03 19:55:11 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/9.7/asm-tree-9.7.pom
+2024.05.03 19:55:11 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.9.1/trees_2.12-4.9.1.pom
+2024.05.03 19:55:11 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/net/jpountz/lz4/lz4/1.3.0/lz4-1.3.0.pom
+2024.05.03 19:55:11 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.23.0/log4j-core-2.23.0.pom
+2024.05.03 19:55:11 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/4.4.0/jna-platform-4.4.0.pom
+2024.05.03 19:55:11 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.pom
+2024.05.03 19:55:11 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bsp4s_2.12/2.1.1/bsp4s_2.12-2.1.1.pom
+2024.05.03 19:55:11 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/ivy/ivy/2.3.0-sbt-396a783bba347016e7fe30dacc60d355be607fe2/ivy-2.3.0-sbt-396a783bba347016e7fe30dacc60d355be607fe2.pom
+2024.05.03 19:55:12 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.pom
+2024.05.03 19:55:12 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/monix/monix-java_2.12/3.2.0/monix-java_2.12-3.2.0.pom
+2024.05.03 19:55:12 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.23.0/log4j-core-2.23.0.pom
+2024.05.03 19:55:12 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/monix/monix-reactive_2.12/3.2.0/monix-reactive_2.12-3.2.0.pom
+2024.05.03 19:55:12 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/ivy/ivy/2.3.0-sbt-396a783bba347016e7fe30dacc60d355be607fe2/ivy-2.3.0-sbt-396a783bba347016e7fe30dacc60d355be607fe2.pom
+2024.05.03 19:55:12 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/monix/monix-execution_2.12/3.2.0/monix-execution_2.12-3.2.0.pom
+2024.05.03 19:55:12 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.9.1/trees_2.12-4.9.1.pom
+2024.05.03 19:55:12 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-core_2.12/1.9.3/librarymanagement-core_2.12-1.9.3.pom
+2024.05.03 19:55:12 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.pom
+2024.05.03 19:55:12 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/9.7/asm-analysis-9.7.pom
+2024.05.03 19:55:12 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/monix/monix-java_2.12/3.2.0/monix-java_2.12-3.2.0.pom
+2024.05.03 19:55:12 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/reactivex/rxjava2/rxjava/2.2.21/rxjava-2.2.21.pom
+2024.05.03 19:55:12 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/monix/monix-reactive_2.12/3.2.0/monix-reactive_2.12-3.2.0.pom
+2024.05.03 19:55:12 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/monix/monix-catnap_2.12/3.2.0/monix-catnap_2.12-3.2.0.pom
+2024.05.03 19:55:12 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/monix/monix-execution_2.12/3.2.0/monix-execution_2.12-3.2.0.pom
+2024.05.03 19:55:12 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/jsonrpc4s_2.12/0.1.1/jsonrpc4s_2.12-0.1.1.pom
+2024.05.03 19:55:12 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-core_2.12/1.9.3/librarymanagement-core_2.12-1.9.3.pom
+2024.05.03 19:55:12 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/zipkin/reporter2/zipkin-reporter/2.17.2/zipkin-reporter-2.17.2.pom
+2024.05.03 19:55:12 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/monix/monix-catnap_2.12/3.2.0/monix-catnap_2.12-3.2.0.pom
+2024.05.03 19:55:12 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/monix/monix-tail_2.12/3.2.0/monix-tail_2.12-3.2.0.pom
+2024.05.03 19:55:12 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/reactivex/rxjava2/rxjava/2.2.21/rxjava-2.2.21.pom
+2024.05.03 19:55:12 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-core_2.12/0.9.0/sjson-new-core_2.12-0.9.0.pom
+2024.05.03 19:55:12 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/jsonrpc4s_2.12/0.1.1/jsonrpc4s_2.12-0.1.1.pom
+2024.05.03 19:55:12 INFO  BSP server: Downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.5.2/jna-4.5.2.pom
+2024.05.03 19:55:12 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/zipkin/reporter2/zipkin-reporter/2.17.2/zipkin-reporter-2.17.2.pom
+2024.05.03 19:55:12 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/chuusai/shapeless_2.12/2.3.3/shapeless_2.12-2.3.3.pom
+2024.05.03 19:55:12 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/monix/monix-tail_2.12/3.2.0/monix-tail_2.12-3.2.0.pom
+2024.05.03 19:55:12 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/lihaoyi/fansi_2.12/0.5.0/fansi_2.12-0.5.0.pom
+2024.05.03 19:55:12 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.5.2/jna-4.5.2.pom
+2024.05.03 19:55:12 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/chuusai/shapeless_2.12/2.3.3/shapeless_2.12-2.3.3.pom
+2024.05.03 19:55:12 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/lihaoyi/fansi_2.12/0.5.0/fansi_2.12-0.5.0.pom
+2024.05.03 19:55:14 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/9.7/asm-analysis-9.7.pom
+2024.05.03 19:55:14 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-core_2.12/0.9.0/sjson-new-core_2.12-0.9.0.pom
+2024.05.03 19:55:14 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/commons-io/commons-io/2.15.1/commons-io-2.15.1.pom
+2024.05.03 19:55:14 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j/2.23.0/log4j-2.23.0.pom
+2024.05.03 19:55:14 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/apache/commons/commons-parent/65/commons-parent-65.pom
+2024.05.03 19:55:14 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/zipkin/zipkin-parent/2.27.0/zipkin-parent-2.27.0.pom
+2024.05.03 19:55:14 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/zipkin/zipkin-parent/2.27.0/zipkin-parent-2.27.0.pom
+2024.05.03 19:55:15 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j/2.23.0/log4j-2.23.0.pom
+2024.05.03 19:55:21 INFO  BSP server: Still downloading:
+2024.05.03 19:55:21 INFO  BSP server: https://repo1.maven.org/maven2/org/apache/commons/commons-parent/65/commons-parent-65.pom (84.10 %, 65536 / 77926)
+2024.05.03 19:55:21 INFO  BSP server: 
+2024.05.03 19:55:21 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/apache/commons/commons-parent/65/commons-parent-65.pom
+2024.05.03 19:55:21 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-bom/2.23.0/log4j-bom-2.23.0.pom
+2024.05.03 19:55:21 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/apache/apache/31/apache-31.pom
+2024.05.03 19:55:23 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-bom/2.23.0/log4j-bom-2.23.0.pom
+2024.05.03 19:55:27 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/apache/apache/31/apache-31.pom
+2024.05.03 19:55:27 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/apache/logging/logging-parent/10.6.0/logging-parent-10.6.0.pom
+2024.05.03 19:55:33 INFO  BSP server: Still downloading:
+2024.05.03 19:55:33 INFO  BSP server: https://repo1.maven.org/maven2/org/apache/logging/logging-parent/10.6.0/logging-parent-10.6.0.pom (60.52 %, 32768 / 54145)
+2024.05.03 19:55:33 INFO  BSP server: 
+2024.05.03 19:55:34 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/apache/logging/logging-parent/10.6.0/logging-parent-10.6.0.pom
+2024.05.03 19:55:34 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/codehaus/groovy/groovy-bom/3.0.20/groovy-bom-3.0.20.pom
+2024.05.03 19:55:34 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/mockito/mockito-bom/4.11.0/mockito-bom-4.11.0.pom
+2024.05.03 19:55:34 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/jackson-bom/2.16.1/jackson-bom-2.16.1.pom
+2024.05.03 19:55:34 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/netty/netty-bom/4.1.107.Final/netty-bom-4.1.107.Final.pom
+2024.05.03 19:55:34 INFO  BSP server: Downloading https://repo1.maven.org/maven2/jakarta/platform/jakarta.jakartaee-bom/9.1.0/jakarta.jakartaee-bom-9.1.0.pom
+2024.05.03 19:55:34 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/junit/junit-bom/5.10.2/junit-bom-5.10.2.pom
+2024.05.03 19:55:34 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/junit/junit-bom/5.10.2/junit-bom-5.10.2.pom
+2024.05.03 19:55:34 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/fabric8/kubernetes-client-bom/5.12.4/kubernetes-client-bom-5.12.4.pom
+2024.05.03 19:55:34 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/mockito/mockito-bom/4.11.0/mockito-bom-4.11.0.pom
+2024.05.03 19:55:34 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-bom/9.4.54.v20240208/jetty-bom-9.4.54.v20240208.pom
+2024.05.03 19:55:36 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-bom/9.4.54.v20240208/jetty-bom-9.4.54.v20240208.pom
+2024.05.03 19:55:36 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/fabric8/kubernetes-client-bom/5.12.4/kubernetes-client-bom-5.12.4.pom
+2024.05.03 19:55:36 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/springframework/spring-framework-bom/5.3.32/spring-framework-bom-5.3.32.pom
+2024.05.03 19:55:36 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/springframework/spring-framework-bom/5.3.32/spring-framework-bom-5.3.32.pom
+2024.05.03 19:55:36 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/fasterxml/jackson/jackson-bom/2.16.1/jackson-bom-2.16.1.pom
+2024.05.03 19:55:36 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/netty/netty-bom/4.1.107.Final/netty-bom-4.1.107.Final.pom
+2024.05.03 19:55:37 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/codehaus/groovy/groovy-bom/3.0.20/groovy-bom-3.0.20.pom
+2024.05.03 19:55:37 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/jakarta/platform/jakarta.jakartaee-bom/9.1.0/jakarta.jakartaee-bom-9.1.0.pom
+2024.05.03 19:55:37 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/junit/junit-bom/5.10.1/junit-bom-5.10.1.pom
+2024.05.03 19:55:39 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/junit/junit-bom/5.10.1/junit-bom-5.10.1.pom
+2024.05.03 19:55:39 INFO  BSP server: Downloading https://repo1.maven.org/maven2/jakarta/platform/jakartaee-api-parent/9.1.0/jakartaee-api-parent-9.1.0.pom
+2024.05.03 19:55:39 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/jackson-parent/2.16/jackson-parent-2.16.pom
+2024.05.03 19:55:39 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/fasterxml/jackson/jackson-parent/2.16/jackson-parent-2.16.pom
+2024.05.03 19:55:40 WARN  no build target for: D:\BDE (Big Data Essential)\Final Project\Spark_Scala\wordcount.scala
+2024.05.03 19:55:40 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/jakarta/platform/jakartaee-api-parent/9.1.0/jakartaee-api-parent-9.1.0.pom
+2024.05.03 19:55:40 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/eclipse/ee4j/project/1.0.7/project-1.0.7.pom
+2024.05.03 19:55:40 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/fasterxml/oss-parent/56/oss-parent-56.pom
+2024.05.03 19:55:41 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/fasterxml/oss-parent/56/oss-parent-56.pom
+2024.05.03 19:55:41 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/eclipse/ee4j/project/1.0.7/project-1.0.7.pom
+2024.05.03 19:55:41 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/launcher-interface/1.0.0/launcher-interface-1.0.0.pom
+2024.05.03 19:55:41 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.13.5/jsoniter-scala-core_2.12-2.13.5.pom
+2024.05.03 19:55:41 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/2.1.0/scala-xml_2.12-2.1.0.pom
+2024.05.03 19:55:41 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.23.0/log4j-api-2.23.0.pom
+2024.05.03 19:55:41 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/eed3si9n/gigahorse-apache-http_2.12/0.7.0/gigahorse-apache-http_2.12-0.7.0.pom
+2024.05.03 19:55:41 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/monix/implicitbox_2.12/0.2.0/implicitbox_2.12-0.2.0.pom
+2024.05.03 19:55:43 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.13.5/jsoniter-scala-core_2.12-2.13.5.pom
+2024.05.03 19:55:43 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.12/4.9.1/common_2.12-4.9.1.pom
+2024.05.03 19:55:43 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/launcher-interface/1.0.0/launcher-interface-1.0.0.pom
+2024.05.03 19:55:43 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/outr/scribe_2.12/3.5.5/scribe_2.12-3.5.5.pom
+2024.05.03 19:55:43 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.12/4.9.1/common_2.12-4.9.1.pom
+2024.05.03 19:55:43 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/monix/implicitbox_2.12/0.2.0/implicitbox_2.12-0.2.0.pom
+2024.05.03 19:55:43 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.pom
+2024.05.03 19:55:43 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile-core_2.12/1.9.5/zinc-compile-core_2.12-1.9.5.pom
+2024.05.03 19:55:43 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/2.1.0/scala-xml_2.12-2.1.0.pom
+2024.05.03 19:55:43 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-classfile_2.12/1.9.5/zinc-classfile_2.12-1.9.5.pom
+2024.05.03 19:55:43 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.23.0/log4j-api-2.23.0.pom
+2024.05.03 19:55:43 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.9.1/util-position_2.12-1.9.1.pom
+2024.05.03 19:55:43 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/outr/scribe_2.12/3.5.5/scribe_2.12-3.5.5.pom
+2024.05.03 19:55:43 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.9.1/util-logging_2.12-1.9.1.pom
+2024.05.03 19:55:43 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile-core_2.12/1.9.5/zinc-compile-core_2.12-1.9.5.pom
+2024.05.03 19:55:43 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.9.1/util-cache_2.12-1.9.1.pom
+2024.05.03 19:55:43 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/eed3si9n/gigahorse-apache-http_2.12/0.7.0/gigahorse-apache-http_2.12-0.7.0.pom
+2024.05.03 19:55:43 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/typelevel/cats-effect_2.12/2.1.3/cats-effect_2.12-2.1.3.pom
+2024.05.03 19:55:43 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.9.1/util-logging_2.12-1.9.1.pom
+2024.05.03 19:55:43 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/jctools/jctools-core/2.1.2/jctools-core-2.1.2.pom
+2024.05.03 19:55:43 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-classfile_2.12/1.9.5/zinc-classfile_2.12-1.9.5.pom
+2024.05.03 19:55:43 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-core_2.12/1.9.5/zinc-core_2.12-1.9.5.pom
+2024.05.03 19:55:43 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.pom
+2024.05.03 19:55:43 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1.pom
+2024.05.03 19:55:43 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/typelevel/cats-effect_2.12/2.1.3/cats-effect_2.12-2.1.3.pom
+2024.05.03 19:55:43 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist_2.12/1.9.5/zinc-persist_2.12-1.9.5.pom
+2024.05.03 19:55:44 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/jctools/jctools-core/2.1.2/jctools-core-2.1.2.pom
+2024.05.03 19:55:44 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/jcraft/jsch/0.1.54/jsch-0.1.54.pom
+2024.05.03 19:55:44 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-core_2.12/1.9.5/zinc-core_2.12-1.9.5.pom
+2024.05.03 19:55:44 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.9.1/io_2.12-1.9.1.pom
+2024.05.03 19:55:44 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/jcraft/jsch/0.1.54/jsch-0.1.54.pom
+2024.05.03 19:55:44 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist_2.12/1.9.5/zinc-persist_2.12-1.9.5.pom
+2024.05.03 19:55:44 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1.pom
+2024.05.03 19:55:44 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.9.1/util-cache_2.12-1.9.1.pom
+2024.05.03 19:55:44 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.9.1/io_2.12-1.9.1.pom
+2024.05.03 19:55:44 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.9.1/util-position_2.12-1.9.1.pom
+2024.05.03 19:55:44 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/sonatype/oss/oss-parent/6/oss-parent-6.pom
+2024.05.03 19:55:45 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/sonatype/oss/oss-parent/6/oss-parent-6.pom
+2024.05.03 19:55:45 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/outr/moduload_2.12/1.1.5/moduload_2.12-1.1.5.pom
+2024.05.03 19:55:45 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/sbinary_2.12/0.5.1/sbinary_2.12-0.5.1.pom
+2024.05.03 19:55:45 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-murmurhash_2.12/0.9.1/sjson-new-murmurhash_2.12-0.9.1.pom
+2024.05.03 19:55:45 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/launcher-interface/1.4.2/launcher-interface-1.4.2.pom
+2024.05.03 19:55:45 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/core-macros_2.12/1.9.1/core-macros_2.12-1.9.1.pom
+2024.05.03 19:55:45 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/eed3si9n/shaded-apache-httpasyncclient/0.7.0/shaded-apache-httpasyncclient-0.7.0.pom
+2024.05.03 19:55:45 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/core-macros_2.12/1.9.1/core-macros_2.12-1.9.1.pom
+2024.05.03 19:55:45 INFO  BSP server: Downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.13.0/jna-platform-5.13.0.pom
+2024.05.03 19:55:45 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/outr/moduload_2.12/1.1.5/moduload_2.12-1.1.5.pom
+2024.05.03 19:55:45 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2.pom
+2024.05.03 19:55:45 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/launcher-interface/1.4.2/launcher-interface-1.4.2.pom
+2024.05.03 19:55:45 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.9.4/util-logging_2.12-1.9.4.pom
+2024.05.03 19:55:45 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-murmurhash_2.12/0.9.1/sjson-new-murmurhash_2.12-0.9.1.pom
+2024.05.03 19:55:45 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-classpath_2.12/1.9.5/zinc-classpath_2.12-1.9.5.pom
+2024.05.03 19:55:45 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/sbinary_2.12/0.5.1/sbinary_2.12-0.5.1.pom
+2024.05.03 19:55:45 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/swoval/file-tree-views/2.1.10/file-tree-views-2.1.10.pom
+2024.05.03 19:55:45 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.13.0/jna-platform-5.13.0.pom
+2024.05.03 19:55:45 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.9.5/compiler-interface-1.9.5.pom
+2024.05.03 19:55:45 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2.pom
+2024.05.03 19:55:45 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/2.2.0/scala-xml_2.12-2.2.0.pom
+2024.05.03 19:55:45 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.9.4/util-logging_2.12-1.9.4.pom
+2024.05.03 19:55:45 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-apiinfo_2.12/1.9.5/zinc-apiinfo_2.12-1.9.5.pom
+2024.05.03 19:55:45 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/swoval/file-tree-views/2.1.10/file-tree-views-2.1.10.pom
+2024.05.03 19:55:45 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/jline/jline-terminal-jansi/3.19.0/jline-terminal-jansi-3.19.0.pom
+2024.05.03 19:55:45 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-classpath_2.12/1.9.5/zinc-classpath_2.12-1.9.5.pom
+2024.05.03 19:55:45 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/eed3si9n/gigahorse-core_2.12/0.7.0/gigahorse-core_2.12-0.7.0.pom
+2024.05.03 19:55:45 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.9.5/compiler-interface-1.9.5.pom
+2024.05.03 19:55:45 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/outr/perfolation_2.12/1.2.8/perfolation_2.12-1.2.8.pom
+2024.05.03 19:55:45 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/eed3si9n/shaded-apache-httpasyncclient/0.7.0/shaded-apache-httpasyncclient-0.7.0.pom
+2024.05.03 19:55:45 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/lmax/disruptor/3.4.2/disruptor-3.4.2.pom
+2024.05.03 19:55:45 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-apiinfo_2.12/1.9.5/zinc-apiinfo_2.12-1.9.5.pom
+2024.05.03 19:55:45 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-scalajson_2.12/0.9.1/sjson-new-scalajson_2.12-0.9.1.pom
+2024.05.03 19:55:45 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/eed3si9n/gigahorse-core_2.12/0.7.0/gigahorse-core_2.12-0.7.0.pom
+2024.05.03 19:55:45 INFO  BSP server: Downloading https://repo1.maven.org/maven2/net/openhft/zero-allocation-hashing/0.10.1/zero-allocation-hashing-0.10.1.pom
+2024.05.03 19:55:45 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/outr/perfolation_2.12/1.2.8/perfolation_2.12-1.2.8.pom
+2024.05.03 19:55:45 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.9.4/util-control_2.12-1.9.4.pom
+2024.05.03 19:55:46 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/lmax/disruptor/3.4.2/disruptor-3.4.2.pom
+2024.05.03 19:55:46 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.9.4/util-relation_2.12-1.9.4.pom
+2024.05.03 19:55:46 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/jline/jline-terminal-jansi/3.19.0/jline-terminal-jansi-3.19.0.pom
+2024.05.03 19:55:46 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.9.5/zinc-persist-core-assembly-1.9.5.pom
+2024.05.03 19:55:46 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-scalajson_2.12/0.9.1/sjson-new-scalajson_2.12-0.9.1.pom
+2024.05.03 19:55:46 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/2.1.1/cats-core_2.12-2.1.1.pom
+2024.05.03 19:55:46 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/net/openhft/zero-allocation-hashing/0.10.1/zero-allocation-hashing-0.10.1.pom
+2024.05.03 19:55:46 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/thesamet/scalapb/scalapb-runtime_2.12/0.11.15/scalapb-runtime_2.12-0.11.15.pom
+2024.05.03 19:55:46 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.9.4/util-control_2.12-1.9.4.pom
+2024.05.03 19:55:46 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.9.1/collections_2.12-1.9.1.pom
+2024.05.03 19:55:46 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/2.2.0/scala-xml_2.12-2.2.0.pom
+2024.05.03 19:55:46 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/jline/jline/2.14.7-sbt-a1b0ffbb8f64bb820f4f84a0c07a0c0964507493/jline-2.14.7-sbt-a1b0ffbb8f64bb820f4f84a0c07a0c0964507493.pom
+2024.05.03 19:55:46 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.9.4/util-relation_2.12-1.9.4.pom
+2024.05.03 19:55:46 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.9.1/util-interface-1.9.1.pom
+2024.05.03 19:55:46 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.9.5/zinc-persist-core-assembly-1.9.5.pom
+2024.05.03 19:55:46 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/2.1.1/cats-core_2.12-2.1.1.pom
+2024.05.03 19:55:46 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/thesamet/scalapb/scalapb-runtime_2.12/0.11.15/scalapb-runtime_2.12-0.11.15.pom
+2024.05.03 19:55:46 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.9.1/util-interface-1.9.1.pom
+2024.05.03 19:55:46 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.9.1/collections_2.12-1.9.1.pom
+2024.05.03 19:55:46 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/jline/jline/2.14.7-sbt-a1b0ffbb8f64bb820f4f84a0c07a0c0964507493/jline-2.14.7-sbt-a1b0ffbb8f64bb820f4f84a0c07a0c0964507493.pom
+2024.05.03 19:55:46 INFO  BSP server: Downloading https://repo1.maven.org/maven2/net/openhft/root-parent-pom/1.1.13/root-parent-pom-1.1.13.pom
+2024.05.03 19:55:49 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/net/openhft/root-parent-pom/1.1.13/root-parent-pom-1.1.13.pom
+2024.05.03 19:55:49 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.9.4/util-interface-1.9.4.pom
+2024.05.03 19:55:49 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.9.4/collections_2.12-1.9.4.pom
+2024.05.03 19:55:49 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/thesamet/scalapb/lenses_2.12/0.11.15/lenses_2.12-0.11.15.pom
+2024.05.03 19:55:49 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.6.1/ssl-config-core_2.12-0.6.1.pom
+2024.05.03 19:55:49 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/2.1.1/cats-kernel_2.12-2.1.1.pom
+2024.05.03 19:55:49 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-core_2.12/0.9.1/sjson-new-core_2.12-0.9.1.pom
+2024.05.03 19:55:49 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.9.4/collections_2.12-1.9.4.pom
+2024.05.03 19:55:49 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/2.1.0/jansi-2.1.0.pom
+2024.05.03 19:55:49 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/thesamet/scalapb/lenses_2.12/0.11.15/lenses_2.12-0.11.15.pom
+2024.05.03 19:55:49 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.6.1/ssl-config-core_2.12-0.6.1.pom
+2024.05.03 19:55:49 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.12/1.9.5/compiler-bridge_2.12-1.9.5.pom
+2024.05.03 19:55:49 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/2.1.1/cats-kernel_2.12-2.1.1.pom
+2024.05.03 19:55:49 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/eed3si9n/shaded-jawn-parser_2.12/0.9.1/shaded-jawn-parser_2.12-0.9.1.pom
+2024.05.03 19:55:49 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/eed3si9n/shaded-scalajson_2.12/1.0.0-M4/shaded-scalajson_2.12-1.0.0-M4.pom
+2024.05.03 19:55:49 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.9.4/util-interface-1.9.4.pom
+2024.05.03 19:55:49 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/core-macros_2.12/1.9.4/core-macros_2.12-1.9.4.pom
+2024.05.03 19:55:49 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.12/1.9.5/compiler-bridge_2.12-1.9.5.pom
+2024.05.03 19:55:49 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/2.1.1/cats-macros_2.12-2.1.1.pom
+2024.05.03 19:55:49 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/2.1.0/jansi-2.1.0.pom
+2024.05.03 19:55:49 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/eed3si9n/shaded-scalajson_2.12/1.0.0-M4/shaded-scalajson_2.12-1.0.0-M4.pom
+2024.05.03 19:55:49 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/eed3si9n/shaded-jawn-parser_2.12/0.9.1/shaded-jawn-parser_2.12-0.9.1.pom
+2024.05.03 19:55:49 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/2.1.1/cats-macros_2.12-2.1.1.pom
+2024.05.03 19:55:49 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-core_2.12/0.9.1/sjson-new-core_2.12-0.9.1.pom
+2024.05.03 19:55:50 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/core-macros_2.12/1.9.4/core-macros_2.12-1.9.4.pom
+2024.05.03 19:55:50 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/fusesource/fusesource-pom/1.12/fusesource-pom-1.12.pom
+2024.05.03 19:55:50 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/fusesource/fusesource-pom/1.12/fusesource-pom-1.12.pom
+2024.05.03 19:55:50 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.9.4/util-position_2.12-1.9.4.pom
+2024.05.03 19:55:50 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.9.4/util-position_2.12-1.9.4.pom
+2024.05.03 19:55:50 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/zipkin/reporter2/zipkin-reporter-brave/2.17.2/zipkin-reporter-brave-2.17.2.jar
+2024.05.03 19:55:50 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/eed3si9n/shaded-jawn-parser_2.12/0.9.1/shaded-jawn-parser_2.12-0.9.1.jar
+2024.05.03 19:55:50 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/jctools/jctools-core/2.1.2/jctools-core-2.1.2.jar
+2024.05.03 19:55:50 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-core_2.12/1.9.3/librarymanagement-core_2.12-1.9.3.jar
+2024.05.03 19:55:50 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/swoval/file-tree-views/2.1.10/file-tree-views-2.1.10.jar
+2024.05.03 19:55:50 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-classfile_2.12/1.9.5/zinc-classfile_2.12-1.9.5.jar
+2024.05.03 19:55:51 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/zipkin/reporter2/zipkin-reporter-brave/2.17.2/zipkin-reporter-brave-2.17.2.jar
+2024.05.03 19:55:51 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/zeroturnaround/zt-zip/1.17/zt-zip-1.17.jar
+2024.05.03 19:55:51 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/eed3si9n/shaded-jawn-parser_2.12/0.9.1/shaded-jawn-parser_2.12-0.9.1.jar
+2024.05.03 19:55:51 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/2.1.1/cats-macros_2.12-2.1.1.jar
+2024.05.03 19:55:51 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/swoval/file-tree-views/2.1.10/file-tree-views-2.1.10.jar
+2024.05.03 19:55:51 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/2.1.1/cats-core_2.12-2.1.1.jar
+2024.05.03 19:55:51 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/2.1.1/cats-macros_2.12-2.1.1.jar
+2024.05.03 19:55:51 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/9.7/asm-analysis-9.7.jar
+2024.05.03 19:55:51 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/9.7/asm-analysis-9.7.jar
+2024.05.03 19:55:51 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/core-macros_2.12/1.9.4/core-macros_2.12-1.9.4.jar
+2024.05.03 19:55:51 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-classfile_2.12/1.9.5/zinc-classfile_2.12-1.9.5.jar
+2024.05.03 19:55:51 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.9.4/util-position_2.12-1.9.4.jar
+2024.05.03 19:55:51 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/zeroturnaround/zt-zip/1.17/zt-zip-1.17.jar
+2024.05.03 19:55:51 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-backend_2.12/1.5.17-sc-1/bloop-backend_2.12-1.5.17-sc-1.jar
+2024.05.03 19:55:51 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/core-macros_2.12/1.9.4/core-macros_2.12-1.9.4.jar
+2024.05.03 19:55:51 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-apiinfo_2.12/1.9.5/zinc-apiinfo_2.12-1.9.5.jar
+2024.05.03 19:55:51 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.9.4/util-position_2.12-1.9.4.jar
+2024.05.03 19:55:51 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.11.0/scala-collection-compat_2.12-2.11.0.jar
+2024.05.03 19:55:52 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-apiinfo_2.12/1.9.5/zinc-apiinfo_2.12-1.9.5.jar
+2024.05.03 19:55:52 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-util/9.7/asm-util-9.7.jar
+2024.05.03 19:55:52 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/ow2/asm/asm-util/9.7/asm-util-9.7.jar
+2024.05.03 19:55:52 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/thesamet/scalapb/lenses_2.12/0.11.15/lenses_2.12-0.11.15.jar
+2024.05.03 19:55:52 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.11.0/scala-collection-compat_2.12-2.11.0.jar
+2024.05.03 19:55:52 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/2.0.0/bloop-config_2.12-2.0.0.jar
+2024.05.03 19:55:52 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/thesamet/scalapb/lenses_2.12/0.11.15/lenses_2.12-0.11.15.jar
+2024.05.03 19:55:52 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.9.4/util-interface-1.9.4.jar
+2024.05.03 19:55:52 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/2.0.0/bloop-config_2.12-2.0.0.jar
+2024.05.03 19:55:52 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.9.4/util-control_2.12-1.9.4.jar
+2024.05.03 19:55:52 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.9.4/util-interface-1.9.4.jar
+2024.05.03 19:55:52 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/lihaoyi/fansi_2.12/0.5.0/fansi_2.12-0.5.0.jar
+2024.05.03 19:55:52 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.9.4/util-control_2.12-1.9.4.jar
+2024.05.03 19:55:52 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.12/0.4.1/sourcecode_2.12-0.4.1.jar
+2024.05.03 19:55:52 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/2.1.1/cats-core_2.12-2.1.1.jar
+2024.05.03 19:55:52 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar
+2024.05.03 19:55:52 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/lihaoyi/fansi_2.12/0.5.0/fansi_2.12-0.5.0.jar
+2024.05.03 19:55:52 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.9.1/util-cache_2.12-1.9.1.jar
+2024.05.03 19:55:52 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar
+2024.05.03 19:55:52 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/thesamet/scalapb/scalapb-runtime_2.12/0.11.15/scalapb-runtime_2.12-0.11.15.jar
+2024.05.03 19:55:52 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.12/0.4.1/sourcecode_2.12-0.4.1.jar
+2024.05.03 19:55:52 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/outr/scribe_2.12/3.5.5/scribe_2.12-3.5.5.jar
+2024.05.03 19:55:53 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.9.1/util-cache_2.12-1.9.1.jar
+2024.05.03 19:55:53 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/scala-debug-adapter_2.12/4.0.3/scala-debug-adapter_2.12-4.0.3.jar
+2024.05.03 19:55:53 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/outr/scribe_2.12/3.5.5/scribe_2.12-3.5.5.jar
+2024.05.03 19:55:53 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1.jar
+2024.05.03 19:55:53 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1.jar
+2024.05.03 19:55:53 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/2.2.0/scala-xml_2.12-2.2.0.jar
+2024.05.03 19:55:53 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/2.2.0/scala-xml_2.12-2.2.0.jar
+2024.05.03 19:55:53 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/reactivex/rxjava2/rxjava/2.2.21/rxjava-2.2.21.jar
+2024.05.03 19:55:53 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/thesamet/scalapb/scalapb-runtime_2.12/0.11.15/scalapb-runtime_2.12-0.11.15.jar
+2024.05.03 19:55:53 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2.jar
+2024.05.03 19:55:53 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/scala-debug-adapter_2.12/4.0.3/scala-debug-adapter_2.12-4.0.3.jar
+2024.05.03 19:55:53 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/monix/monix-tail_2.12/3.2.0/monix-tail_2.12-3.2.0.jar
+2024.05.03 19:55:53 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2.jar
+2024.05.03 19:55:53 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.9.4/util-logging_2.12-1.9.4.jar
+2024.05.03 19:55:53 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/reactivex/rxjava2/rxjava/2.2.21/rxjava-2.2.21.jar
+2024.05.03 19:55:53 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/zipkin/reporter2/zipkin-reporter/2.17.2/zipkin-reporter-2.17.2.jar
+2024.05.03 19:55:53 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/monix/monix-tail_2.12/3.2.0/monix-tail_2.12-3.2.0.jar
+2024.05.03 19:55:53 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/launcher-interface/1.4.2/launcher-interface-1.4.2.jar
+2024.05.03 19:55:54 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.9.4/util-logging_2.12-1.9.4.jar
+2024.05.03 19:55:54 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.23.0/log4j-core-2.23.0.jar
+2024.05.03 19:55:54 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/zipkin/reporter2/zipkin-reporter/2.17.2/zipkin-reporter-2.17.2.jar
+2024.05.03 19:55:54 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bsp4s_2.12/2.1.1/bsp4s_2.12-2.1.1.jar
+2024.05.03 19:55:54 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/launcher-interface/1.4.2/launcher-interface-1.4.2.jar
+2024.05.03 19:55:54 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-frontend_2.12/1.5.17-sc-1/bloop-frontend_2.12-1.5.17-sc-1.jar
+2024.05.03 19:55:54 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bsp4s_2.12/2.1.1/bsp4s_2.12-2.1.1.jar
+2024.05.03 19:55:54 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.23.0/log4j-api-2.23.0.jar
+2024.05.03 19:55:54 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.23.0/log4j-core-2.23.0.jar
+2024.05.03 19:55:54 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-murmurhash_2.12/0.9.1/sjson-new-murmurhash_2.12-0.9.1.jar
+2024.05.03 19:55:54 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-frontend_2.12/1.5.17-sc-1/bloop-frontend_2.12-1.5.17-sc-1.jar
+2024.05.03 19:55:54 INFO  BSP server: Downloading https://repo1.maven.org/maven2/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar
+2024.05.03 19:55:54 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.23.0/log4j-api-2.23.0.jar
+2024.05.03 19:55:54 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/outr/perfolation_2.12/1.2.8/perfolation_2.12-1.2.8.jar
+2024.05.03 19:55:54 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-murmurhash_2.12/0.9.1/sjson-new-murmurhash_2.12-0.9.1.jar
+2024.05.03 19:55:54 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/monix/monix-reactive_2.12/3.2.0/monix-reactive_2.12-3.2.0.jar
+2024.05.03 19:55:54 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/outr/perfolation_2.12/1.2.8/perfolation_2.12-1.2.8.jar
+2024.05.03 19:55:54 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/github/alexarchambault/case-app_2.12/2.0.6/case-app_2.12-2.0.6.jar
+2024.05.03 19:55:54 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar
+2024.05.03 19:55:54 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/2.1.1/cats-kernel_2.12-2.1.1.jar
+2024.05.03 19:55:54 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/monix/monix-reactive_2.12/3.2.0/monix-reactive_2.12-3.2.0.jar
+2024.05.03 19:55:54 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.12/7.3.8/scalaz-core_2.12-7.3.8.jar
+2024.05.03 19:55:56 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/github/alexarchambault/case-app_2.12/2.0.6/case-app_2.12-2.0.6.jar
+2024.05.03 19:55:56 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.9.1/parsers_2.12-4.9.1.jar
+2024.05.03 19:55:56 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.9.1/parsers_2.12-4.9.1.jar
+2024.05.03 19:55:56 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.12/1.9.5/compiler-bridge_2.12-1.9.5.jar
+2024.05.03 19:55:56 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.12/1.9.5/compiler-bridge_2.12-1.9.5.jar
+2024.05.03 19:55:56 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/eed3si9n/gigahorse-apache-http_2.12/0.7.0/gigahorse-apache-http_2.12-0.7.0.jar
+2024.05.03 19:55:57 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-backend_2.12/1.5.17-sc-1/bloop-backend_2.12-1.5.17-sc-1.jar
+2024.05.03 19:55:57 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.19/scala-reflect-2.12.19.jar
+2024.05.03 19:55:57 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/eed3si9n/gigahorse-apache-http_2.12/0.7.0/gigahorse-apache-http_2.12-0.7.0.jar
+2024.05.03 19:55:57 INFO  BSP server: Downloading https://repo1.maven.org/maven2/net/jpountz/lz4/lz4/1.3.0/lz4-1.3.0.jar
+2024.05.03 19:55:57 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/net/jpountz/lz4/lz4/1.3.0/lz4-1.3.0.jar
+2024.05.03 19:55:57 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-scalajson_2.12/0.9.1/sjson-new-scalajson_2.12-0.9.1.jar
+2024.05.03 19:55:57 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/2.1.1/cats-kernel_2.12-2.1.1.jar
+2024.05.03 19:55:57 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/eed3si9n/gigahorse-core_2.12/0.7.0/gigahorse-core_2.12-0.7.0.jar
+2024.05.03 19:55:57 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-scalajson_2.12/0.9.1/sjson-new-scalajson_2.12-0.9.1.jar
+2024.05.03 19:55:57 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/monix/monix-eval_2.12/3.2.0/monix-eval_2.12-3.2.0.jar
+2024.05.03 19:55:57 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/eed3si9n/gigahorse-core_2.12/0.7.0/gigahorse-core_2.12-0.7.0.jar
+2024.05.03 19:55:57 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist_2.12/1.9.5/zinc-persist_2.12-1.9.5.jar
+2024.05.03 19:55:57 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/monix/monix-eval_2.12/3.2.0/monix-eval_2.12-3.2.0.jar
+2024.05.03 19:55:57 INFO  BSP server: Downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.13.0/jna-platform-5.13.0.jar
+2024.05.03 19:55:57 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist_2.12/1.9.5/zinc-persist_2.12-1.9.5.jar
+2024.05.03 19:55:57 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar
+2024.05.03 19:55:58 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.12/7.3.8/scalaz-core_2.12-7.3.8.jar
+2024.05.03 19:55:58 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-core_2.12/0.9.1/sjson-new-core_2.12-0.9.1.jar
+2024.05.03 19:55:58 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.13.0/jna-platform-5.13.0.jar
+2024.05.03 19:55:58 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.13.5/jsoniter-scala-core_2.12-2.13.5.jar
+2024.05.03 19:55:58 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-core_2.12/0.9.1/sjson-new-core_2.12-0.9.1.jar
+2024.05.03 19:55:58 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/eed3si9n/shaded-scalajson_2.12/1.0.0-M4/shaded-scalajson_2.12-1.0.0-M4.jar
+2024.05.03 19:55:58 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.13.5/jsoniter-scala-core_2.12-2.13.5.jar
+2024.05.03 19:55:58 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-core_2.12/1.9.5/zinc-core_2.12-1.9.5.jar
+2024.05.03 19:55:58 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar
+2024.05.03 19:55:58 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/9.7/asm-tree-9.7.jar
+2024.05.03 19:55:58 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/eed3si9n/shaded-scalajson_2.12/1.0.0-M4/shaded-scalajson_2.12-1.0.0-M4.jar
+2024.05.03 19:55:58 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/zipkin/brave/brave/5.18.1/brave-5.18.1.jar
+2024.05.03 19:55:58 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-core_2.12/1.9.5/zinc-core_2.12-1.9.5.jar
+2024.05.03 19:55:58 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.9.5/zinc-persist-core-assembly-1.9.5.jar
+2024.05.03 19:55:58 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/9.7/asm-tree-9.7.jar
+2024.05.03 19:55:58 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.9.4/util-relation_2.12-1.9.4.jar
+2024.05.03 19:55:58 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/zipkin/brave/brave/5.18.1/brave-5.18.1.jar
+2024.05.03 19:55:58 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.9.5/compiler-interface-1.9.5.jar
+2024.05.03 19:55:58 ERROR Timeout waiting for 'build/initialize' response
+2024.05.03 19:55:58 WARN  Retrying connection to the build server scala-cli
+2024.05.03 19:55:58 INFO  Running BSP server List(C:\Users\admin\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, D:\BDE (Big Data Essential)\Final Project\.scala-build\ide-options-v2.json, D:\BDE (Big Data Essential)\Final Project)
+2024.05.03 19:55:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\BDE (Big Data Essential)\Final Project\.metals\bsp.trace.json or C:\Users\admin\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.05.03 19:56:00 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/jcraft/jsch/0.1.54/jsch-0.1.54.jar
+2024.05.03 19:56:00 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-core_2.12/1.9.3/librarymanagement-core_2.12-1.9.3.jar
+2024.05.03 19:56:00 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.9.5/compiler-interface-1.9.5.jar
+2024.05.03 19:56:00 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/github/alexarchambault/case-app-util_2.12/2.0.6/case-app-util_2.12-2.0.6.jar
+2024.05.03 19:56:00 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.7/slf4j-api-2.0.7.jar
+2024.05.03 19:56:00 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/directory-watcher/0.8.0+6-f651bd93/directory-watcher-0.8.0+6-f651bd93.jar
+2024.05.03 19:56:00 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/directory-watcher/0.8.0+6-f651bd93/directory-watcher-0.8.0+6-f651bd93.jar
+2024.05.03 19:56:00 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/jctools/jctools-core/2.1.2/jctools-core-2.1.2.jar
+2024.05.03 19:56:01 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/jctools/jctools-core/2.1.2/jctools-core-2.1.2.jar
+2024.05.03 19:56:01 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/chuusai/shapeless_2.12/2.3.3/shapeless_2.12-2.3.3.jar
+2024.05.03 19:56:01 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/github/alexarchambault/case-app-util_2.12/2.0.6/case-app-util_2.12-2.0.6.jar
+2024.05.03 19:56:01 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/test-agent/1.9.9/test-agent-1.9.9.jar
+2024.05.03 19:56:01 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.7/slf4j-api-2.0.7.jar
+2024.05.03 19:56:01 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/outr/moduload_2.12/1.1.5/moduload_2.12-1.1.5.jar
+2024.05.03 19:56:01 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/test-agent/1.9.9/test-agent-1.9.9.jar
+2024.05.03 19:56:01 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.12/4.9.1/common_2.12-4.9.1.jar
+2024.05.03 19:56:01 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-core_2.12/1.9.3/librarymanagement-core_2.12-1.9.3.jar
+2024.05.03 19:56:01 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.9.1/trees_2.12-4.9.1.jar
+2024.05.03 19:56:01 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/outr/moduload_2.12/1.1.5/moduload_2.12-1.1.5.jar
+2024.05.03 19:56:01 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/eed3si9n/shaded-apache-httpasyncclient/0.7.0/shaded-apache-httpasyncclient-0.7.0.jar
+2024.05.03 19:56:02 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/jcraft/jsch/0.1.54/jsch-0.1.54.jar
+2024.05.03 19:56:02 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/typelevel/cats-effect_2.12/2.1.3/cats-effect_2.12-2.1.3.jar
+2024.05.03 19:56:02 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/chuusai/shapeless_2.12/2.3.3/shapeless_2.12-2.3.3.jar
+2024.05.03 19:56:02 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/lmax/disruptor/3.4.2/disruptor-3.4.2.jar
+2024.05.03 19:56:02 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/lmax/disruptor/3.4.2/disruptor-3.4.2.jar
+2024.05.03 19:56:02 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.9.5/zinc-persist-core-assembly-1.9.5.jar
+2024.05.03 19:56:02 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.9.5/zinc-persist-core-assembly-1.9.5.jar
+2024.05.03 19:56:02 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.9.1/io_2.12-1.9.1.jar
+2024.05.03 19:56:03 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.9.5/compiler-interface-1.9.5.jar
+2024.05.03 19:56:03 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar
+2024.05.03 19:56:07 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.12/4.9.1/common_2.12-4.9.1.jar
+2024.05.03 19:56:07 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/monix/monix_2.12/3.2.0/monix_2.12-3.2.0.jar
+2024.05.03 19:56:07 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/monix/monix_2.12/3.2.0/monix_2.12-3.2.0.jar
+2024.05.03 19:56:07 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.6.1/ssl-config-core_2.12-0.6.1.jar
+2024.05.03 19:56:07 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.9.1/io_2.12-1.9.1.jar
+2024.05.03 19:56:07 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-ivy_2.12/1.9.3/librarymanagement-ivy_2.12-1.9.3.jar
+2024.05.03 19:56:07 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-ivy_2.12/1.9.3/librarymanagement-ivy_2.12-1.9.3.jar
+2024.05.03 19:56:07 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/jline/jline-terminal-jansi/3.19.0/jline-terminal-jansi-3.19.0.jar
+2024.05.03 19:56:07 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.6.1/ssl-config-core_2.12-0.6.1.jar
+2024.05.03 19:56:07 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/com-microsoft-java-debug-core/0.34.0+27/com-microsoft-java-debug-core-0.34.0+27.jar
+2024.05.03 19:56:08 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/jline/jline-terminal-jansi/3.19.0/jline-terminal-jansi-3.19.0.jar
+2024.05.03 19:56:08 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc_2.12/1.9.5/zinc_2.12-1.9.5.jar
+2024.05.03 19:56:08 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc_2.12/1.9.5/zinc_2.12-1.9.5.jar
+2024.05.03 19:56:08 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.4.14/logback-core-1.4.14.jar
+2024.05.03 19:56:08 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.4.14/logback-core-1.4.14.jar
+2024.05.03 19:56:08 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.9.4/util-relation_2.12-1.9.4.jar
+2024.05.03 19:56:08 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/com-microsoft-java-debug-core/0.34.0+27/com-microsoft-java-debug-core-0.34.0+27.jar
+2024.05.03 19:56:08 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/nailgun-server/1.0.7/nailgun-server-1.0.7.jar
+2024.05.03 19:56:08 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.9.4/util-relation_2.12-1.9.4.jar
+2024.05.03 19:56:08 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.jar
+2024.05.03 19:56:08 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/nailgun-server/1.0.7/nailgun-server-1.0.7.jar
+2024.05.03 19:56:08 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/monix/implicitbox_2.12/0.2.0/implicitbox_2.12-0.2.0.jar
+2024.05.03 19:56:09 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/monix/implicitbox_2.12/0.2.0/implicitbox_2.12-0.2.0.jar
+2024.05.03 19:56:09 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/sbinary_2.12/0.5.1/sbinary_2.12-0.5.1.jar
+2024.05.03 19:56:09 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/sbinary_2.12/0.5.1/sbinary_2.12-0.5.1.jar
+2024.05.03 19:56:09 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/ivy/ivy/2.3.0-sbt-396a783bba347016e7fe30dacc60d355be607fe2/ivy-2.3.0-sbt-396a783bba347016e7fe30dacc60d355be607fe2.jar
+2024.05.03 19:56:10 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.jar
+2024.05.03 19:56:10 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile-core_2.12/1.9.5/zinc-compile-core_2.12-1.9.5.jar
+2024.05.03 19:56:10 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile-core_2.12/1.9.5/zinc-compile-core_2.12-1.9.5.jar
+2024.05.03 19:56:10 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/libdaemon/libdaemon_2.12/0.0.11/libdaemon_2.12-0.0.11.jar
+2024.05.03 19:56:10 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/typelevel/cats-effect_2.12/2.1.3/cats-effect_2.12-2.1.3.jar
+2024.05.03 19:56:10 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-shared_2.12/1.5.17-sc-1/bloop-shared_2.12-1.5.17-sc-1.jar
+2024.05.03 19:56:10 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/libdaemon/libdaemon_2.12/0.0.11/libdaemon_2.12-0.0.11.jar
+2024.05.03 19:56:10 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/lihaoyi/pprint_2.12/0.9.0/pprint_2.12-0.9.0.jar
+2024.05.03 19:56:10 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/lihaoyi/pprint_2.12/0.9.0/pprint_2.12-0.9.0.jar
+2024.05.03 19:56:10 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/monix/monix-execution_2.12/3.2.0/monix-execution_2.12-3.2.0.jar
+2024.05.03 19:56:10 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/monix/monix-execution_2.12/3.2.0/monix-execution_2.12-3.2.0.jar
+2024.05.03 19:56:10 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/monix/monix-catnap_2.12/3.2.0/monix-catnap_2.12-3.2.0.jar
+2024.05.03 19:56:11 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/monix/monix-catnap_2.12/3.2.0/monix-catnap_2.12-3.2.0.jar
+2024.05.03 19:56:11 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.9.4/collections_2.12-1.9.4.jar
+2024.05.03 19:56:11 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.9.4/collections_2.12-1.9.4.jar
+2024.05.03 19:56:11 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.19/scala-library-2.12.19.jar
+2024.05.03 19:56:11 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-shared_2.12/1.5.17-sc-1/bloop-shared_2.12-1.5.17-sc-1.jar
+2024.05.03 19:56:11 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/monix/monix-java_2.12/3.2.0/monix-java_2.12-3.2.0.jar
+2024.05.03 19:56:11 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/monix/monix-java_2.12/3.2.0/monix-java_2.12-3.2.0.jar
+2024.05.03 19:56:11 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.19/scala-reflect-2.12.19.jar
+2024.05.03 19:56:12 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.19/scala-library-2.12.19.jar
+2024.05.03 19:56:12 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar
+2024.05.03 19:56:12 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar
+2024.05.03 19:56:12 INFO  BSP server: Downloading https://repo1.maven.org/maven2/net/openhft/zero-allocation-hashing/0.10.1/zero-allocation-hashing-0.10.1.jar
+2024.05.03 19:56:12 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/net/openhft/zero-allocation-hashing/0.10.1/zero-allocation-hashing-0.10.1.jar
+2024.05.03 19:56:12 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/zipkin/zipkin2/zipkin/2.27.0/zipkin-2.27.0.jar
+2024.05.03 19:56:12 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/zipkin/zipkin2/zipkin/2.27.0/zipkin-2.27.0.jar
+2024.05.03 19:56:12 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.4.14/logback-classic-1.4.14.jar
+2024.05.03 19:56:12 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.9.1/trees_2.12-4.9.1.jar
+2024.05.03 19:56:12 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-classpath_2.12/1.9.5/zinc-classpath_2.12-1.9.5.jar
+2024.05.03 19:56:12 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.4.14/logback-classic-1.4.14.jar
+2024.05.03 19:56:12 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/jline/jline/2.14.7-sbt-a1b0ffbb8f64bb820f4f84a0c07a0c0964507493/jline-2.14.7-sbt-a1b0ffbb8f64bb820f4f84a0c07a0c0964507493.jar
+2024.05.03 19:56:13 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/jline/jline/2.14.7-sbt-a1b0ffbb8f64bb820f4f84a0c07a0c0964507493/jline-2.14.7-sbt-a1b0ffbb8f64bb820f4f84a0c07a0c0964507493.jar
+2024.05.03 19:56:13 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/2.1.0/jansi-2.1.0.jar
+2024.05.03 19:56:13 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-classpath_2.12/1.9.5/zinc-classpath_2.12-1.9.5.jar
+2024.05.03 19:56:13 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/jsonrpc4s_2.12/0.1.1/jsonrpc4s_2.12-0.1.1.jar
+2024.05.03 19:56:13 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/2.1.0/jansi-2.1.0.jar
+2024.05.03 19:56:13 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/github/alexarchambault/case-app-annotations_2.12/2.0.6/case-app-annotations_2.12-2.0.6.jar
+2024.05.03 19:56:13 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/github/alexarchambault/case-app-annotations_2.12/2.0.6/case-app-annotations_2.12-2.0.6.jar
+2024.05.03 19:56:13 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/zipkin/reporter2/zipkin-sender-urlconnection/2.17.2/zipkin-sender-urlconnection-2.17.2.jar
+2024.05.03 19:56:13 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/zipkin/reporter2/zipkin-sender-urlconnection/2.17.2/zipkin-sender-urlconnection-2.17.2.jar
+2024.05.03 19:56:13 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/jsonrpc4s_2.12/0.1.1/jsonrpc4s_2.12-0.1.1.jar
+2024.05.03 19:56:15 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/ivy/ivy/2.3.0-sbt-396a783bba347016e7fe30dacc60d355be607fe2/ivy-2.3.0-sbt-396a783bba347016e7fe30dacc60d355be607fe2.jar
+2024.05.03 19:56:20 INFO  BSP server: Still downloading:
+2024.05.03 19:56:20 INFO  BSP server: https://repo1.maven.org/maven2/com/eed3si9n/shaded-apache-httpasyncclient/0.7.0/shaded-apache-httpasyncclient-0.7.0.jar (87.29 %, 1818624 / 2083419)
+2024.05.03 19:56:20 INFO  BSP server: https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.19/scala-reflect-2.12.19.jar (13.62 %, 499894 / 3670569)
+2024.05.03 19:56:20 INFO  BSP server: https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar (1.79 %, 196608 / 10993868)
+2024.05.03 19:56:20 INFO  BSP server: 
+2024.05.03 19:56:23 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/eed3si9n/shaded-apache-httpasyncclient/0.7.0/shaded-apache-httpasyncclient-0.7.0.jar
+2024.05.03 19:56:28 INFO  BSP server: Still downloading:
+2024.05.03 19:56:28 INFO  BSP server: https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.19/scala-reflect-2.12.19.jar (24.78 %, 909494 / 3670569)
+2024.05.03 19:56:28 INFO  BSP server: https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar (3.43 %, 376832 / 10993868)
+2024.05.03 19:56:28 INFO  BSP server: 
+2024.05.03 19:56:33 INFO  BSP server: Still downloading:
+2024.05.03 19:56:33 INFO  BSP server: https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.19/scala-reflect-2.12.19.jar (31.47 %, 1155254 / 3670569)
+2024.05.03 19:56:33 INFO  BSP server: https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar (4.32 %, 475136 / 10993868)
+2024.05.03 19:56:33 INFO  BSP server: 
+2024.05.03 19:56:39 INFO  BSP server: Still downloading:
+2024.05.03 19:56:39 INFO  BSP server: https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.19/scala-reflect-2.12.19.jar (39.06 %, 1433782 / 3670569)
+2024.05.03 19:56:39 INFO  BSP server: https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar (5.22 %, 573440 / 10993868)
+2024.05.03 19:56:39 INFO  BSP server: 
+2024.05.03 19:56:44 INFO  BSP server: Still downloading:
+2024.05.03 19:56:44 INFO  BSP server: https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.19/scala-reflect-2.12.19.jar (43.08 %, 1581238 / 3670569)
+2024.05.03 19:56:44 INFO  BSP server: https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar (5.81 %, 638976 / 10993868)
+2024.05.03 19:56:44 INFO  BSP server: 
+2024.05.03 19:56:47 INFO  no build target found for D:\BDE (Big Data Essential)\Final Project\Spark_Scala\wordcount.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.03 19:56:49 INFO  BSP server: Still downloading:
+2024.05.03 19:56:49 INFO  BSP server: https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.19/scala-reflect-2.12.19.jar (48.88 %, 1794230 / 3670569)
+2024.05.03 19:56:49 INFO  BSP server: https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar (6.41 %, 704512 / 10993868)
+2024.05.03 19:56:49 INFO  BSP server: 
+2024.05.03 19:56:55 INFO  BSP server: Still downloading:
+2024.05.03 19:56:55 INFO  BSP server: https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.19/scala-reflect-2.12.19.jar (56.92 %, 2089142 / 3670569)
+2024.05.03 19:56:55 INFO  BSP server: https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar (6.86 %, 753664 / 10993868)
+2024.05.03 19:56:55 INFO  BSP server: 
+2024.05.03 19:56:58 ERROR Timeout waiting for 'build/initialize' response
+2024.05.03 19:56:58 WARN  Retrying connection to the build server scala-cli
+2024.05.03 19:56:58 INFO  Running BSP server List(C:\Users\admin\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, D:\BDE (Big Data Essential)\Final Project\.scala-build\ide-options-v2.json, D:\BDE (Big Data Essential)\Final Project)
+2024.05.03 19:56:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\BDE (Big Data Essential)\Final Project\.metals\bsp.trace.json or C:\Users\admin\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.05.03 19:57:00 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.19/scala-reflect-2.12.19.jar
+2024.05.03 19:57:00 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar
+2024.05.03 19:57:01 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.19/scala-reflect-2.12.19.jar
+2024.05.03 19:57:06 INFO  BSP server: Still downloading:
+2024.05.03 19:57:06 INFO  BSP server: https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar (9.09 %, 999424 / 10993868)
+2024.05.03 19:57:06 INFO  BSP server: 
+2024.05.03 19:57:12 INFO  BSP server: Still downloading:
+2024.05.03 19:57:12 INFO  BSP server: https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar (10.13 %, 1114112 / 10993868)
+2024.05.03 19:57:12 INFO  BSP server: 
+2024.05.03 19:57:19 INFO  BSP server: Still downloading:
+2024.05.03 19:57:19 INFO  BSP server: https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar (10.58 %, 1163264 / 10993868)
+2024.05.03 19:57:19 INFO  BSP server: 
+2024.05.03 19:57:25 INFO  BSP server: Still downloading:
+2024.05.03 19:57:25 INFO  BSP server: https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar (11.18 %, 1228800 / 10993868)
+2024.05.03 19:57:25 INFO  BSP server: 
+2024.05.03 19:57:31 INFO  BSP server: Still downloading:
+2024.05.03 19:57:31 INFO  BSP server: https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar (11.92 %, 1310720 / 10993868)
+2024.05.03 19:57:31 INFO  BSP server: 
+2024.05.03 19:57:36 INFO  BSP server: Still downloading:
+2024.05.03 19:57:36 INFO  BSP server: https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar (13.41 %, 1474560 / 10993868)
+2024.05.03 19:57:36 INFO  BSP server: 
+2024.05.03 19:57:43 INFO  BSP server: Still downloading:
+2024.05.03 19:57:43 INFO  BSP server: https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar (14.01 %, 1540096 / 10993868)
+2024.05.03 19:57:43 INFO  BSP server: 
+2024.05.03 19:57:48 INFO  BSP server: Still downloading:
+2024.05.03 19:57:48 INFO  BSP server: https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar (15.05 %, 1654784 / 10993868)
+2024.05.03 19:57:48 INFO  BSP server: 
+2024.05.03 19:57:54 INFO  BSP server: Still downloading:
+2024.05.03 19:57:54 INFO  BSP server: https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar (15.80 %, 1736704 / 10993868)
+2024.05.03 19:57:54 INFO  BSP server: 
+2024.05.03 19:57:58 ERROR Timeout waiting for 'build/initialize' response
+2024.05.03 19:57:58 WARN  Retrying connection to the build server scala-cli
+2024.05.03 19:57:58 INFO  Running BSP server List(C:\Users\admin\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, D:\BDE (Big Data Essential)\Final Project\.scala-build\ide-options-v2.json, D:\BDE (Big Data Essential)\Final Project)
+2024.05.03 19:57:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\BDE (Big Data Essential)\Final Project\.metals\bsp.trace.json or C:\Users\admin\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.05.03 19:57:59 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar
+2024.05.03 19:58:05 INFO  BSP server: Still downloading:
+2024.05.03 19:58:05 INFO  BSP server: https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar (16.84 %, 1851392 / 10993868)
+2024.05.03 19:58:05 INFO  BSP server: 
+2024.05.03 19:58:11 INFO  BSP server: Still downloading:
+2024.05.03 19:58:11 INFO  BSP server: https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar (17.29 %, 1900544 / 10993868)
+2024.05.03 19:58:11 INFO  BSP server: 
+2024.05.03 19:58:18 INFO  BSP server: Still downloading:
+2024.05.03 19:58:18 INFO  BSP server: https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar (17.88 %, 1966080 / 10993868)
+2024.05.03 19:58:18 INFO  BSP server: 
+2024.05.03 19:58:24 INFO  BSP server: Still downloading:
+2024.05.03 19:58:24 INFO  BSP server: https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar (18.63 %, 2048000 / 10993868)
+2024.05.03 19:58:24 INFO  BSP server: 
+2024.05.03 19:58:32 INFO  BSP server: Still downloading:
+2024.05.03 19:58:32 INFO  BSP server: https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar (19.37 %, 2129920 / 10993868)
+2024.05.03 19:58:32 INFO  BSP server: 
+2024.05.03 19:58:37 INFO  BSP server: Still downloading:
+2024.05.03 19:58:37 INFO  BSP server: https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar (19.67 %, 2162688 / 10993868)
+2024.05.03 19:58:37 INFO  BSP server: 
+2024.05.03 19:58:44 INFO  BSP server: Still downloading:
+2024.05.03 19:58:44 INFO  BSP server: https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar (20.42 %, 2244608 / 10993868)
+2024.05.03 19:58:44 INFO  BSP server: 
+2024.05.03 19:58:50 INFO  BSP server: Still downloading:
+2024.05.03 19:58:50 INFO  BSP server: https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar (20.86 %, 2293760 / 10993868)
+2024.05.03 19:58:50 INFO  BSP server: 
+2024.05.03 19:58:56 INFO  BSP server: Still downloading:
+2024.05.03 19:58:56 INFO  BSP server: https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar (21.46 %, 2359296 / 10993868)
+2024.05.03 19:58:56 INFO  BSP server: 
+2024.05.03 19:58:58 ERROR Timeout waiting for 'build/initialize' response
+2024.05.03 19:58:58 WARN  Retrying connection to the build server scala-cli
+2024.05.03 19:58:58 INFO  Running BSP server List(C:\Users\admin\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, D:\BDE (Big Data Essential)\Final Project\.scala-build\ide-options-v2.json, D:\BDE (Big Data Essential)\Final Project)
+2024.05.03 19:58:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\BDE (Big Data Essential)\Final Project\.metals\bsp.trace.json or C:\Users\admin\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.05.03 19:58:59 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar
+2024.05.03 19:59:05 INFO  BSP server: Still downloading:
+2024.05.03 19:59:05 INFO  BSP server: https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar (26.04 %, 2863313 / 10993868)
+2024.05.03 19:59:05 INFO  BSP server: 
+2024.05.03 19:59:11 INFO  BSP server: Still downloading:
+2024.05.03 19:59:11 INFO  BSP server: https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar (28.88 %, 3174609 / 10993868)
+2024.05.03 19:59:11 INFO  BSP server: 
+2024.05.03 19:59:16 INFO  BSP server: Still downloading:
+2024.05.03 19:59:16 INFO  BSP server: https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar (33.35 %, 3666129 / 10993868)
+2024.05.03 19:59:16 INFO  BSP server: 
+2024.05.03 19:59:22 INFO  BSP server: Still downloading:
+2024.05.03 19:59:22 INFO  BSP server: https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar (40.20 %, 4419793 / 10993868)
+2024.05.03 19:59:22 INFO  BSP server: 
+2024.05.03 19:59:28 INFO  BSP server: Still downloading:
+2024.05.03 19:59:28 INFO  BSP server: https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar (44.67 %, 4911313 / 10993868)
+2024.05.03 19:59:28 INFO  BSP server: 
+2024.05.03 19:59:33 INFO  BSP server: Still downloading:
+2024.05.03 19:59:33 INFO  BSP server: https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar (45.72 %, 5026001 / 10993868)
+2024.05.03 19:59:33 INFO  BSP server: 
+2024.05.03 19:59:39 INFO  BSP server: Still downloading:
+2024.05.03 19:59:39 INFO  BSP server: https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar (47.21 %, 5189841 / 10993868)
+2024.05.03 19:59:39 INFO  BSP server: 
+2024.05.03 19:59:44 INFO  BSP server: Still downloading:
+2024.05.03 19:59:44 INFO  BSP server: https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar (48.70 %, 5353681 / 10993868)
+2024.05.03 19:59:44 INFO  BSP server: 
+2024.05.03 19:59:49 INFO  BSP server: Still downloading:
+2024.05.03 19:59:49 INFO  BSP server: https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar (50.49 %, 5550289 / 10993868)
+2024.05.03 19:59:49 INFO  BSP server: 
+2024.05.03 19:59:55 INFO  BSP server: Still downloading:
+2024.05.03 19:59:55 INFO  BSP server: https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar (53.32 %, 5861585 / 10993868)
+2024.05.03 19:59:55 INFO  BSP server: 
+2024.05.03 19:59:58 ERROR Timeout waiting for 'build/initialize' response
+2024.05.03 19:59:59 WARN  Retrying connection to the build server scala-cli
+2024.05.03 19:59:59 INFO  Running BSP server List(C:\Users\admin\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, D:\BDE (Big Data Essential)\Final Project\.scala-build\ide-options-v2.json, D:\BDE (Big Data Essential)\Final Project)
+2024.05.03 19:59:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\BDE (Big Data Essential)\Final Project\.metals\bsp.trace.json or C:\Users\admin\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.05.03 20:00:00 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar
+2024.05.03 20:00:04 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.19/scala-compiler-2.12.19.jar
+2024.05.03 20:00:04 INFO  BSP server: Starting compilation server
+2024.05.03 20:00:09 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.4.1/scala3-library_3-3.4.1-sources.jar
+2024.05.03 20:00:09 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.4.1/scala3-library_3-3.4.1-sources.jar
+2024.05.03 20:00:09 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.7.4/semanticdb-javac-0.7.4.pom
+2024.05.03 20:00:09 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.7.4/semanticdb-javac-0.7.4.pom
+2024.05.03 20:00:09 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.7.4/semanticdb-javac-0.7.4.jar
+2024.05.03 20:00:11 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.7.4/semanticdb-javac-0.7.4.jar
+2024.05.03 20:00:12 INFO  time: Connected to build server in 5m13s
+2024.05.03 20:00:12 INFO  Connected to Build server: scala-cli v1.3.0
+2024.05.03 20:00:13 INFO  compiling final project_f4dd477a3a (1 scala source)
+2024.05.03 20:00:24 INFO  time: Imported build in 12s
+2024.05.03 20:00:24 INFO  compiling final project_f4dd477a3a (1 scala source)
+2024.05.03 20:00:27 INFO  time: indexed workspace in 3.06s
+2024.05.03 20:00:27 WARN  no build target for: D:\BDE (Big Data Essential)\Final Project\Spark_Scala\wordcount.scala
+2024.05.03 20:00:42 INFO  no build target found for D:\BDE (Big Data Essential)\Final Project\Spark_Scala\wordcount.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.03 20:00:42 WARN  no build target for: D:\BDE (Big Data Essential)\Final Project\Spark_Scala\wordcount.scala
+2024.05.03 20:00:43 INFO  time: code lens generation in 13s
+2024.05.03 20:00:43 INFO  time: code lens generation in 13s
+2024.05.03 20:00:43 INFO  time: code lens generation in 13s
+2024.05.03 20:00:43 INFO  time: code lens generation in 13s
+2024.05.03 20:00:43 INFO  time: code lens generation in 13s
+2024.05.03 20:00:43 INFO  time: code lens generation in 13s
+2024.05.03 20:00:43 INFO  time: code lens generation in 13s
+2024.05.03 20:00:43 INFO  time: code lens generation in 13s
+2024.05.03 20:00:43 INFO  time: code lens generation in 13s
+2024.05.03 20:00:43 INFO  time: code lens generation in 13s
+2024.05.03 20:00:46 WARN  no build target for: D:\BDE (Big Data Essential)\Final Project\Spark_Scala\wordcount.scala
+May 03, 2024 8:00:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 37
+2024.05.03 20:00:46 WARN  no build target for: D:\BDE (Big Data Essential)\Final Project\Spark_Scala\wordcount.scala
+May 03, 2024 8:00:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 38
+2024.05.03 20:00:46 WARN  no build target for: D:\BDE (Big Data Essential)\Final Project\Spark_Scala\wordcount.scala
+2024.05.03 20:04:20 INFO  compiling final project_f4dd477a3a (1 scala source)
+2024.05.03 20:04:22 INFO  compiling final project_f4dd477a3a (1 scala source)
+2024.05.03 20:04:23 INFO  time: indexed workspace in 3.09s
+2024.05.03 20:04:23 WARN  no build target for: D:\BDE (Big Data Essential)\Final Project\Spark_Scala\wordcount.scala
+2024.05.03 20:04:33 INFO  no build target found for D:\BDE (Big Data Essential)\Final Project\Spark_Scala\Wordcount.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.03 20:04:33 INFO  time: code lens generation in 11s
+2024.05.03 20:04:34 INFO  time: code lens generation in 8.94s
+2024.05.03 20:04:34 WARN  Could not find semantic tokens for: file:///D:/BDE%20(Big%20Data%20Essential)/Final%20Project/Spark_Scala/FriendCount.scala
+2024.05.03 20:04:34 INFO  compiling final project_f4dd477a3a (2 scala sources)
+2024.05.03 20:04:34 INFO  compiling final project_f4dd477a3a (2 scala sources)
+2024.05.03 20:04:36 INFO  time: indexed workspace in 2.02s
+2024.05.03 20:04:36 WARN  no build target for: D:\BDE (Big Data Essential)\Final Project\Spark_Scala\Wordcount.scala
+2024.05.03 20:04:41 INFO  compiling final project_f4dd477a3a (2 scala sources)
+2024.05.03 20:04:41 INFO  compiling final project_f4dd477a3a (2 scala sources)
+2024.05.03 20:04:48 INFO  no build target found for D:\BDE (Big Data Essential)\Final Project\Spark_Scala\Wordcount.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.03 20:04:48 INFO  time: code lens generation in 7.98s
+2024.05.03 20:04:49 INFO  time: indexed workspace in 1.55s
+2024.05.03 20:04:49 WARN  no build target for: D:\BDE (Big Data Essential)\Final Project\Spark_Scala\Wordcount.scala
+2024.05.03 20:05:03 INFO  no build target found for D:\BDE (Big Data Essential)\Final Project\Spark_Scala\WordCount.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.03 20:05:03 INFO  time: code lens generation in 9.69s
+2024.05.03 20:05:45 WARN  Could not find semantic tokens for: file:///D:/BDE%20(Big%20Data%20Essential)/Final%20Project/Spark_Scala/FriendCount.scala
+May 03, 2024 8:06:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 105
+2024.05.03 20:07:01 ERROR Failed to tokenize input for semantic tokens for D:\BDE (Big Data Essential)\Final Project\Spark_Scala\WordCount.scala
+scala.meta.tokenizers.TokenizeException: <input>:7: error: invalid escape character
+val text = sc.textFile("D:\BDE (Big Data Essential)\Final Project\Spark_Scala\Input/WordCount.txt")
+                           ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.invalidEscape(LegacyScanner.scala:751)
+	at scala.meta.internal.tokenizers.LegacyScanner.getLitChar(LegacyScanner.scala:739)
+	at scala.meta.internal.tokenizers.LegacyScanner.getLitChars(LegacyScanner.scala:760)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:379)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:383)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:842)
+
+May 03, 2024 8:07:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 143
+2024.05.03 20:07:04 ERROR Failed to tokenize input for semantic tokens for D:\BDE (Big Data Essential)\Final Project\Spark_Scala\WordCount.scala
+scala.meta.tokenizers.TokenizeException: <input>:7: error: invalid escape character
+val text = sc.textFile("D:\BDE (Big Data Essential)\Final Project\Spark_Scala/Input/WordCount.txt")
+                           ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.invalidEscape(LegacyScanner.scala:751)
+	at scala.meta.internal.tokenizers.LegacyScanner.getLitChar(LegacyScanner.scala:739)
+	at scala.meta.internal.tokenizers.LegacyScanner.getLitChars(LegacyScanner.scala:760)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:379)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:383)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:842)
+
+2024.05.03 20:07:06 ERROR Failed to tokenize input for semantic tokens for D:\BDE (Big Data Essential)\Final Project\Spark_Scala\WordCount.scala
+scala.meta.tokenizers.TokenizeException: <input>:7: error: invalid escape character
+val text = sc.textFile("D:\BDE (Big Data Essential)Final Project/Spark_Scala/Input/WordCount.txt")
+                           ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.invalidEscape(LegacyScanner.scala:751)
+	at scala.meta.internal.tokenizers.LegacyScanner.getLitChar(LegacyScanner.scala:739)
+	at scala.meta.internal.tokenizers.LegacyScanner.getLitChars(LegacyScanner.scala:760)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:379)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:383)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:842)
+
+2024.05.03 20:07:09 ERROR Failed to tokenize input for semantic tokens for D:\BDE (Big Data Essential)\Final Project\Spark_Scala\WordCount.scala
+scala.meta.tokenizers.TokenizeException: <input>:7: error: invalid escape character
+val text = sc.textFile("D:\BDE (Big Data Essential)/Final Project/Spark_Scala/Input/WordCount.txt")
+                           ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.invalidEscape(LegacyScanner.scala:751)
+	at scala.meta.internal.tokenizers.LegacyScanner.getLitChar(LegacyScanner.scala:739)
+	at scala.meta.internal.tokenizers.LegacyScanner.getLitChars(LegacyScanner.scala:760)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:379)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:383)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:842)
+
+2024.05.03 20:07:10 WARN  no build target for: D:\BDE (Big Data Essential)\Final Project\Spark_Scala\WordCount.scala
+2024.05.03 20:07:32 WARN  no build target for: D:\BDE (Big Data Essential)\Final Project\Spark_Scala\WordCount.scala
+2024.05.03 20:08:17 WARN  no build target for: D:\BDE (Big Data Essential)\Final Project\Spark_Scala\FriendCount.scala
+2024.05.03 20:31:03 WARN  Could not find semantic tokens for: file:///D:/BDE%20(Big%20Data%20Essential)/Final%20Project/Spark_Scala/WordLength.scala
+2024.05.03 20:31:04 INFO  compiling final project_f4dd477a3a (3 scala sources)
+2024.05.03 20:31:05 INFO  time: Imported build in 1.05s
+2024.05.03 20:31:04 INFO  compiling final project_f4dd477a3a (3 scala sources)
+2024.05.03 20:31:06 INFO  time: indexed workspace in 1.63s
+2024.05.03 20:31:06 WARN  no build target for: D:\BDE (Big Data Essential)\Final Project\Spark_Scala\WordLength.scala
+2024.05.03 20:31:12 INFO  no build target found for D:\BDE (Big Data Essential)\Final Project\Spark_Scala\WordLength.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.03 20:31:12 INFO  time: code lens generation in 5.17s
+2024.05.03 20:32:33 WARN  no build target for: D:\BDE (Big Data Essential)\Final Project\Spark_Scala\WordLength.scala
+2024.05.03 20:36:15 WARN  no build target for: D:\BDE (Big Data Essential)\Final Project\Spark_Scala\WordLength.scala
+2024.05.03 20:36:16 WARN  no build target for: D:\BDE (Big Data Essential)\Final Project\Spark_Scala\WordLength.scala
+2024.05.03 20:37:53 WARN  no build target for: D:\BDE (Big Data Essential)\Final Project\Spark_Scala\WordLength.scala
+2024.05.03 20:37:56 WARN  no build target for: D:\BDE (Big Data Essential)\Final Project\Spark_Scala\WordLength.scala
+May 03, 2024 8:38:08 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report D:\BDE (Big Data Essential)\Final Project\.metals\.reports\metals-full\2024-05-03\r_compiler-error_20-38-08-891.md
+2024.05.03 20:38:09 WARN  no build target for: D:\BDE (Big Data Essential)\Final Project\Spark_Scala\WordLength.scala
+2024.05.03 20:38:16 WARN  no build target for: D:\BDE (Big Data Essential)\Final Project\Spark_Scala\WordLength.scala
+2024.05.03 20:41:29 WARN  no build target for: D:\BDE (Big Data Essential)\Final Project\Spark_Scala\WordLength.scala
+May 03, 2024 8:41:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 812
+2024.05.03 20:41:43 WARN  no build target for: D:\BDE (Big Data Essential)\Final Project\Spark_Scala\WordLength.scala
+2024.05.03 20:42:24 WARN  no build target for: D:\BDE (Big Data Essential)\Final Project\Spark_Scala\WordLength.scala
+2024.05.03 23:58:10 WARN  no build target for: D:\BDE (Big Data Essential)\Final Project\Spark_Scala\WordLength.scala
+2024.05.04 00:49:18 INFO  Shutting down server
+2024.05.04 00:49:18 INFO  shutting down Metals
+2024.05.04 00:49:18 INFO  Shut down connection with build server.
+2024.05.04 00:49:18 INFO  Exiting server
+2024.05.04 14:56:11 INFO  Started: Metals version 1.3.0 in folders 'D:\BDE (Big Data Essential)\Final Project' for client Visual Studio Code 1.89.0.
+SLF4J: Class path contains multiple SLF4J providers.
+SLF4J: Found provider [scribe.slf4j.ScribeServiceProvider@200055e1]
+SLF4J: Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@6376a702]
+SLF4J: See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual provider is of type [scribe.slf4j.ScribeServiceProvider@200055e1]
+2024.05.04 14:56:12 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.05.04 14:56:13 INFO  Attempting to connect to the build server...
+2024.05.04 14:56:13 INFO  Running BSP server List(C:\Users\admin\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, D:\BDE (Big Data Essential)\Final Project\.scala-build\ide-options-v2.json, D:\BDE (Big Data Essential)\Final Project)
+2024.05.04 14:56:13 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\BDE (Big Data Essential)\Final Project\.metals\bsp.trace.json or C:\Users\admin\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.05.04 14:56:17 INFO  BSP server: Starting compilation server
+2024.05.04 14:56:31 INFO  time: Connected to build server in 18s
+2024.05.04 14:56:31 INFO  Connected to Build server: scala-cli v1.3.0
+2024.05.04 14:56:32 INFO  time: Imported build in 0.28s
+2024.05.04 14:56:33 INFO  compiling final project_f4dd477a3a (3 scala sources)
+2024.05.04 14:56:35 INFO  time: indexed workspace in 2.74s
+2024.05.04 14:56:41 INFO  compiling final project_f4dd477a3a (3 scala sources)
+2024.05.04 14:57:47 INFO  no build target found for D:\BDE (Big Data Essential)\Final Project\Spark_Scala\WordCount.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.04 14:57:52 INFO  time: code lens generation in 20s
+2024.05.04 15:06:59 INFO  Shutting down server
+2024.05.04 15:06:59 INFO  shutting down Metals
+2024.05.04 15:06:59 INFO  Shut down connection with build server.
+2024.05.04 15:06:59 INFO  Exiting server
