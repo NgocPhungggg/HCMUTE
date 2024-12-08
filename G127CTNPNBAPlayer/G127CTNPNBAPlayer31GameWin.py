@@ -3,7 +3,6 @@ from pygame.locals import *  # Nhập tất cả các hằng số và đối tư
 pygame.init()  # Khởi tạo tất cả các module của Pygame để sẵn sàng sử dụng
 DISPLAYSURF = pygame.display.set_mode((400, 300))  # Tạo cửa sổ game với kích thước 400x300 pixels và gán vào biến DISPLAYSURF
 pygame.display.set_caption('27 Cao Thị Ngọc Phụng = Ex3.1: Màn hình (cửa sổ) Game')  # Thiết lập tiêu đề cửa sổ game
-# B4: Vòng lặp chạy liên tục Game cho đến khi nhận sự kiện QUIT (nút x : trên, phải)
 while True:  # Bắt đầu vòng lặp chính của game, vòng lặp này sẽ chạy mãi cho đến khi có sự kiện thoát
     for event in pygame.event.get():  # Lấy tất cả sự kiện đã xảy ra trong game (như nhấn phím, di chuyển chuột...)
         if event.type == QUIT:  # Nếu sự kiện là QUIT (đóng cửa sổ game)
