@@ -37,3 +37,5 @@ S:\Documents\DBSE\Final project\User_Management\User_Management\obj\Debug\User_M
 S:\Documents\DBSE\Final project\User_Management\User_Management\obj\Debug\User_Management.formProfiles.resources
 S:\Documents\DBSE\Final project\User_Management\User_Management\obj\Debug\User_Management.formUserManagement.resources
 S:\Documents\DBSE\Final project\User_Management\User_Management\obj\Debug\User_Management.formMenuUsers.resources
+S:\Documents\DBSE\Final project\User_Management\User_Management\obj\Debug\User_Management.formAudit.resources
+S:\Documents\DBSE\Final project\User_Management\User_Management\obj\Debug\User_Management.formCreateAlterUser.resources

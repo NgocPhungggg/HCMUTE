@@ -17,17 +17,48 @@ namespace Business_Logic_Layer
             dal = new DAL();
         }
 
-        public DataTable GetAllProfile()
+        public DataTable GetUserProfile()
         {
-            string query = "SELECT * FROM ADMIN.USER_PROFILE_INFO";
+            string query = "SELECT * FROM ADMIN.LIST_PROFILE WHERE USERNAME IS NOT NULL";
             return dal.ExecuteQuery(query);
         }
 
+        public DataTable GetUserProfile(string profile)
+        {
+            string query = "SELECT * FROM ADMIN.LIST_PROFILE WHERE PROFILE = :profile";
+            return dal.ExecuteQueryDataTable(query, CommandType.Text,
+                new string[] { "profile" },
+                new object[] { profile });
+
+        }
+
+        public DataTable GetAllProfile()
+        {
+            string query = "SELECT DISTINCT PROFILE FROM ADMIN.LIST_PROFILE";
+            return dal.ExecuteQuery(query);
+        }
+
+        public DataTable GetInfoProfile()
+        {
+            string query = "SELECT * FROM ADMIN.PROFILE_INFO";
+            return dal.ExecuteQuery(query);
+        }
+
+
+        public DataTable GetInfoProfile(string profile)
+        {
+            string query = "SELECT * FROM ADMIN.PROFILE_INFO WHERE PROFILE = :profile";
+            return dal.ExecuteQueryDataTable(query, CommandType.Text,
+                new string[] { "profile" },
+                new object[] { profile });
+        }
+
+
         public bool CreateProfile(ref string err, 
                                     string profile_name, 
-                                    int sessions_per_user, 
-                                    double connect_time, 
-                                    double idle_time)
+                                    string sessions_per_user,
+                                    string connect_time,
+                                    string idle_time)
         {
             return dal.ExecuteNonQuery(
                 "ManageProfile",
@@ -49,10 +80,10 @@ namespace Business_Logic_Layer
             );
         }
         public bool UpdateProfile(ref string err, 
-                                    string profile_name, 
-                                    int sessions_per_user, 
-                                    double connect_time, 
-                                    double idle_time)
+                                    string profile_name,
+                                    string sessions_per_user,
+                                    string connect_time,
+                                    string idle_time)
         {
             return dal.ExecuteNonQuery(
                 "ManageProfile",

@@ -11,6 +11,18 @@ namespace Business_Logic_Layer
     public class Role
     {
         DAL dal = new DAL();
+
+        //Hao
+        public DataTable GetAllRole()
+        {
+            return dal.ExecuteQuery("SELECT * FROM ADMIN.ALL_ROLES");
+        }
+        public DataTable GetDistinctRoleName()
+        {
+            return dal.ExecuteQuery("SELECT DISTINCT(role_name) FROM ADMIN.ROLE_PRIVILEGES_VIEW");
+        }
+
+
         public bool CreateRole(ref string err,
                                     string role_name,
                                     string password)
@@ -21,17 +33,6 @@ namespace Business_Logic_Layer
                 ref err,
                 new string[] { "p_action", "p_role_name", "p_password"}, 
                 new object[] { "CREATE", role_name, password }                
-            );
-        }
-        public bool CreateRoleNoPassWord(ref string err,
-                                         string role_name)
-        {
-            return dal.ExecuteNonQuery(
-                "Manage_Role",
-                CommandType.StoredProcedure,
-                ref err,
-                new string[] { "p_action", "p_role_name"},
-                new object[] { "CREATE", role_name}
             );
         }
 

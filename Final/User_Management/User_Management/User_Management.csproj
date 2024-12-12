@@ -65,6 +65,23 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DataSetOracle.xsd</DependentUpon>
     </Compile>
+    <Compile Include="DataSet_AllUser.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet_AllUser.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="formAudit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formAudit.Designer.cs">
+      <DependentUpon>formAudit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formCreateAlterUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formCreateAlterUser.Designer.cs">
+      <DependentUpon>formCreateAlterUser.cs</DependentUpon>
+    </Compile>
     <Compile Include="formInfo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -115,6 +132,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="formAudit.resx">
+      <DependentUpon>formAudit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formCreateAlterUser.resx">
+      <DependentUpon>formCreateAlterUser.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="formInfo.resx">
       <DependentUpon>formInfo.cs</DependentUpon>
     </EmbeddedResource>
@@ -159,6 +182,17 @@
     </None>
     <None Include="DataSetOracle.xss">
       <DependentUpon>DataSetOracle.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet_AllUser.xsc">
+      <DependentUpon>DataSet_AllUser.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet_AllUser.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_AllUser.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet_AllUser.xss">
+      <DependentUpon>DataSet_AllUser.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -209,6 +243,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\button_Back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backgroundNormal.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
