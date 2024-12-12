@@ -1,0 +1,212 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "S:\\Documents\\DBSE\\Final project\\User_Management\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AEFD5F76-740D-49F8-BDCD-51A14D8D939C}|User_Management\\User_Management.csproj|S:\\Documents\\DBSE\\Final project\\User_Management\\user_management\\formusermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AEFD5F76-740D-49F8-BDCD-51A14D8D939C}|User_Management\\User_Management.csproj|solutionrelative:user_management\\formusermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEFD5F76-740D-49F8-BDCD-51A14D8D939C}|User_Management\\User_Management.csproj|s:\\documents\\dbse\\final project\\user_management\\user_management\\formusermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEFD5F76-740D-49F8-BDCD-51A14D8D939C}|User_Management\\User_Management.csproj|solutionrelative:user_management\\formusermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEFD5F76-740D-49F8-BDCD-51A14D8D939C}|User_Management\\User_Management.csproj|s:\\documents\\dbse\\final project\\user_management\\user_management\\formmenuadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEFD5F76-740D-49F8-BDCD-51A14D8D939C}|User_Management\\User_Management.csproj|solutionrelative:user_management\\formmenuadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEFD5F76-740D-49F8-BDCD-51A14D8D939C}|User_Management\\User_Management.csproj|s:\\documents\\dbse\\final project\\user_management\\user_management\\formmenuadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AEFD5F76-740D-49F8-BDCD-51A14D8D939C}|User_Management\\User_Management.csproj|solutionrelative:user_management\\formmenuadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEFD5F76-740D-49F8-BDCD-51A14D8D939C}|User_Management\\User_Management.csproj|S:\\Documents\\DBSE\\Final project\\User_Management\\user_management\\formprivileges.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AEFD5F76-740D-49F8-BDCD-51A14D8D939C}|User_Management\\User_Management.csproj|solutionrelative:user_management\\formprivileges.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A5D49F3-8647-4B2F-A1B4-62B2541A60CE}|Business_Logic_Layer\\Business_Logic_Layer.csproj|S:\\Documents\\DBSE\\Final project\\User_Management\\business_logic_layer\\privileges.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A5D49F3-8647-4B2F-A1B4-62B2541A60CE}|Business_Logic_Layer\\Business_Logic_Layer.csproj|solutionrelative:business_logic_layer\\privileges.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A5D49F3-8647-4B2F-A1B4-62B2541A60CE}|Business_Logic_Layer\\Business_Logic_Layer.csproj|S:\\Documents\\DBSE\\Final project\\User_Management\\business_logic_layer\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A5D49F3-8647-4B2F-A1B4-62B2541A60CE}|Business_Logic_Layer\\Business_Logic_Layer.csproj|solutionrelative:business_logic_layer\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3029F41-177E-45AA-AEDB-6DBA423DDCB8}|Data_Access_Layer\\Data_Access_Layer.csproj|S:\\Documents\\DBSE\\Final project\\User_Management\\data_access_layer\\dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3029F41-177E-45AA-AEDB-6DBA423DDCB8}|Data_Access_Layer\\Data_Access_Layer.csproj|solutionrelative:data_access_layer\\dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A5D49F3-8647-4B2F-A1B4-62B2541A60CE}|Business_Logic_Layer\\Business_Logic_Layer.csproj|S:\\Documents\\DBSE\\Final project\\User_Management\\business_logic_layer\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A5D49F3-8647-4B2F-A1B4-62B2541A60CE}|Business_Logic_Layer\\Business_Logic_Layer.csproj|solutionrelative:business_logic_layer\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A5D49F3-8647-4B2F-A1B4-62B2541A60CE}|Business_Logic_Layer\\Business_Logic_Layer.csproj|S:\\Documents\\DBSE\\Final project\\User_Management\\business_logic_layer\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A5D49F3-8647-4B2F-A1B4-62B2541A60CE}|Business_Logic_Layer\\Business_Logic_Layer.csproj|solutionrelative:business_logic_layer\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 100,
+          "SelectedChildIndex": 15,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a83394e3-39c2-4678-a3c8-364b69d78fd3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "formMenuAdmin.cs",
+              "DocumentMoniker": "S:\\Documents\\DBSE\\Final project\\User_Management\\User_Management\\formMenuAdmin.cs",
+              "RelativeDocumentMoniker": "User_Management\\formMenuAdmin.cs",
+              "ToolTip": "S:\\Documents\\DBSE\\Final project\\User_Management\\User_Management\\formMenuAdmin.cs",
+              "RelativeToolTip": "User_Management\\formMenuAdmin.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAA0wDwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T07:21:48.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "formMenuAdmin.cs [Design]",
+              "DocumentMoniker": "S:\\Documents\\DBSE\\Final project\\User_Management\\User_Management\\formMenuAdmin.cs",
+              "RelativeDocumentMoniker": "User_Management\\formMenuAdmin.cs",
+              "ToolTip": "S:\\Documents\\DBSE\\Final project\\User_Management\\User_Management\\formMenuAdmin.cs [Design]",
+              "RelativeToolTip": "User_Management\\formMenuAdmin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T07:14:19.461Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "formUserManagement.cs",
+              "DocumentMoniker": "S:\\Documents\\DBSE\\Final project\\User_Management\\User_Management\\formUserManagement.cs",
+              "RelativeDocumentMoniker": "User_Management\\formUserManagement.cs",
+              "ToolTip": "S:\\Documents\\DBSE\\Final project\\User_Management\\User_Management\\formUserManagement.cs",
+              "RelativeToolTip": "User_Management\\formUserManagement.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T06:50:57.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Role.cs",
+              "DocumentMoniker": "S:\\Documents\\DBSE\\Final project\\User_Management\\Business_Logic_Layer\\Role.cs",
+              "RelativeDocumentMoniker": "Business_Logic_Layer\\Role.cs",
+              "ToolTip": "S:\\Documents\\DBSE\\Final project\\User_Management\\Business_Logic_Layer\\Role.cs",
+              "RelativeToolTip": "Business_Logic_Layer\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "OverriddenGroupName": "Business_Logic_Layer",
+              "WhenOpened": "2024-12-11T22:05:22.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Profile.cs",
+              "DocumentMoniker": "S:\\Documents\\DBSE\\Final project\\User_Management\\Business_Logic_Layer\\Profile.cs",
+              "RelativeDocumentMoniker": "Business_Logic_Layer\\Profile.cs",
+              "ToolTip": "S:\\Documents\\DBSE\\Final project\\User_Management\\Business_Logic_Layer\\Profile.cs",
+              "RelativeToolTip": "Business_Logic_Layer\\Profile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "OverriddenGroupName": "Business_Logic_Layer",
+              "WhenOpened": "2024-12-11T22:01:18.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Privileges.cs",
+              "DocumentMoniker": "S:\\Documents\\DBSE\\Final project\\User_Management\\Business_Logic_Layer\\Privileges.cs",
+              "RelativeDocumentMoniker": "Business_Logic_Layer\\Privileges.cs",
+              "ToolTip": "S:\\Documents\\DBSE\\Final project\\User_Management\\Business_Logic_Layer\\Privileges.cs",
+              "RelativeToolTip": "Business_Logic_Layer\\Privileges.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAA1wCwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T20:54:02.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DAL.cs",
+              "DocumentMoniker": "S:\\Documents\\DBSE\\Final project\\User_Management\\Data_Access_Layer\\DAL.cs",
+              "RelativeDocumentMoniker": "Data_Access_Layer\\DAL.cs",
+              "ToolTip": "S:\\Documents\\DBSE\\Final project\\User_Management\\Data_Access_Layer\\DAL.cs",
+              "RelativeToolTip": "Data_Access_Layer\\DAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "OverriddenGroupName": "Data_Access_Layer",
+              "WhenOpened": "2024-12-11T19:35:18.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "User.cs",
+              "DocumentMoniker": "S:\\Documents\\DBSE\\Final project\\User_Management\\Business_Logic_Layer\\User.cs",
+              "RelativeDocumentMoniker": "Business_Logic_Layer\\User.cs",
+              "ToolTip": "S:\\Documents\\DBSE\\Final project\\User_Management\\Business_Logic_Layer\\User.cs",
+              "RelativeToolTip": "Business_Logic_Layer\\User.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAAC8AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T19:33:18.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "formPrivileges.cs [Design]",
+              "DocumentMoniker": "S:\\Documents\\DBSE\\Final project\\User_Management\\User_Management\\formPrivileges.cs",
+              "RelativeDocumentMoniker": "User_Management\\formPrivileges.cs",
+              "ToolTip": "User_Management/formPrivileges.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "OverriddenGroupName": "User_Management",
+              "OverriddenToolTip": "User_Management/formPrivileges.cs",
+              "WhenOpened": "2024-12-11T18:55:44.821Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "formUserManagement.cs [Design]",
+              "DocumentMoniker": "S:\\Documents\\DBSE\\Final project\\User_Management\\User_Management\\formUserManagement.cs",
+              "RelativeDocumentMoniker": "User_Management\\formUserManagement.cs",
+              "ToolTip": "S:\\Documents\\DBSE\\Final project\\User_Management\\User_Management\\formUserManagement.cs [Design]",
+              "RelativeToolTip": "User_Management\\formUserManagement.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T18:51:48.642Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
