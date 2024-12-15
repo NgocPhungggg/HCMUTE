@@ -16,4 +16,7 @@
 #
 
 # A Spark Worker will be started on each of the machines listed below.
-192.168.1.107 ngocphung-slave
+192.168.1.131 ngocphung-master
+192.168.1.120 tientran-slave
+192.168.1.23 phuthanh-slave
+192.168.1.172 vanhao-slave

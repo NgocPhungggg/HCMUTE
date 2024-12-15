@@ -1,0 +1,10 @@
+set JAVA_HOME=W:\Java\jdk-1.8
+set SPARK_HOME=C:\Spark\spark-3.5.3-bin-hadoop3
+set HADOOP_HOME=C:\Hadoop\hadoop-3.3.6
+set SPARK_MASTER_HOST=192.168.1.131
+set SPARK_WORKER_CORES=8
+set SPARK_LOCAL_IP=192.168.1.131
+set PATH=%JAVA_HOME%\bin;%SCALA_HOME%\bin;%SPARK_HOME%\bin;%HADOOP_HOME%\bin;%PATH%
+set PYSPARK_PYTHON=C:\Python\python.exe
+set PYSPARK_PYTHON=C:\Python\python.exe
+set PYSPARK_DRIVER_PYTHON=C:\Python\python.exe
