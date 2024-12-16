@@ -1,0 +1,82 @@
+S:\Documents\DBSE\Final project\User_Management\User_Management\bin\Debug\User_Management.exe.config
+S:\Documents\DBSE\Final project\User_Management\User_Management\bin\Debug\User_Management.exe
+S:\Documents\DBSE\Final project\User_Management\User_Management\bin\Debug\User_Management.pdb
+S:\Documents\DBSE\Final project\User_Management\User_Management\obj\Debug\User_Management.csproj.AssemblyReference.cache
+S:\Documents\DBSE\Final project\User_Management\User_Management\obj\Debug\User_Management.Properties.Resources.resources
+S:\Documents\DBSE\Final project\User_Management\User_Management\obj\Debug\User_Management.csproj.GenerateResource.cache
+S:\Documents\DBSE\Final project\User_Management\User_Management\obj\Debug\User_Management.csproj.CoreCompileInputs.cache
+S:\Documents\DBSE\Final project\User_Management\User_Management\obj\Debug\User_Management.exe
+S:\Documents\DBSE\Final project\User_Management\User_Management\obj\Debug\User_Management.pdb
+S:\Documents\DBSE\Final project\User_Management\User_Management\bin\Debug\Data_Access_Layer.exe
+S:\Documents\DBSE\Final project\User_Management\User_Management\bin\Debug\System.Text.Json.dll
+S:\Documents\DBSE\Final project\User_Management\User_Management\bin\Debug\System.Threading.Tasks.Extensions.dll
+S:\Documents\DBSE\Final project\User_Management\User_Management\bin\Debug\System.Formats.Asn1.dll
+S:\Documents\DBSE\Final project\User_Management\User_Management\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+S:\Documents\DBSE\Final project\User_Management\User_Management\bin\Debug\System.Memory.dll
+S:\Documents\DBSE\Final project\User_Management\User_Management\bin\Debug\System.Text.Encodings.Web.dll
+S:\Documents\DBSE\Final project\User_Management\User_Management\bin\Debug\System.ValueTuple.dll
+S:\Documents\DBSE\Final project\User_Management\User_Management\bin\Debug\System.Numerics.Vectors.dll
+S:\Documents\DBSE\Final project\User_Management\User_Management\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+S:\Documents\DBSE\Final project\User_Management\User_Management\bin\Debug\System.Buffers.dll
+S:\Documents\DBSE\Final project\User_Management\User_Management\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+S:\Documents\DBSE\Final project\User_Management\User_Management\bin\Debug\Data_Access_Layer.pdb
+S:\Documents\DBSE\Final project\User_Management\User_Management\bin\Debug\Data_Access_Layer.exe.config
+S:\Documents\DBSE\Final project\User_Management\User_Management\bin\Debug\System.Formats.Asn1.xml
+S:\Documents\DBSE\Final project\User_Management\User_Management\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+S:\Documents\DBSE\Final project\User_Management\User_Management\bin\Debug\System.Memory.xml
+S:\Documents\DBSE\Final project\User_Management\User_Management\bin\Debug\System.Text.Encodings.Web.xml
+S:\Documents\DBSE\Final project\User_Management\User_Management\obj\Debug\User_Management.formLogin.resources
+S:\Documents\DBSE\Final project\User_Management\User_Management\obj\Debug\User_Man.59C1D476.Up2Date
+S:\Documents\DBSE\Final project\User_Management\User_Management\bin\Debug\Business_Logic_Layer.exe
+S:\Documents\DBSE\Final project\User_Management\User_Management\bin\Debug\Business_Logic_Layer.pdb
+S:\Documents\DBSE\Final project\User_Management\User_Management\bin\Debug\Business_Logic_Layer.exe.config
+S:\Documents\DBSE\Final project\User_Management\User_Management\obj\Debug\User_Management.formInfo.resources
+S:\Documents\DBSE\Final project\User_Management\User_Management\obj\Debug\User_Management.formMenuAdmin.resources
+S:\Documents\DBSE\Final project\User_Management\User_Management\obj\Debug\User_Management.formRolePrivileges.resources
+S:\Documents\DBSE\Final project\User_Management\User_Management\obj\Debug\User_Management.formPrivileges.resources
+S:\Documents\DBSE\Final project\User_Management\User_Management\obj\Debug\User_Management.formProfiles.resources
+S:\Documents\DBSE\Final project\User_Management\User_Management\obj\Debug\User_Management.formUserManagement.resources
+S:\Documents\DBSE\Final project\User_Management\User_Management\obj\Debug\User_Management.formMenuUsers.resources
+S:\Documents\DBSE\Final project\User_Management\User_Management\obj\Debug\User_Management.formAudit.resources
+S:\Documents\DBSE\Final project\User_Management\User_Management\obj\Debug\User_Management.formCreateAlterUser.resources
+S:\Documents\DBSE\Tien\User_Management\User_Management\bin\Debug\User_Management.exe.config
+S:\Documents\DBSE\Tien\User_Management\User_Management\bin\Debug\User_Management.exe
+S:\Documents\DBSE\Tien\User_Management\User_Management\bin\Debug\User_Management.pdb
+S:\Documents\DBSE\Tien\User_Management\User_Management\bin\Debug\Business_Logic_Layer.exe
+S:\Documents\DBSE\Tien\User_Management\User_Management\bin\Debug\Data_Access_Layer.exe
+S:\Documents\DBSE\Tien\User_Management\User_Management\bin\Debug\System.Formats.Asn1.dll
+S:\Documents\DBSE\Tien\User_Management\User_Management\bin\Debug\System.Text.Json.dll
+S:\Documents\DBSE\Tien\User_Management\User_Management\bin\Debug\System.Threading.Tasks.Extensions.dll
+S:\Documents\DBSE\Tien\User_Management\User_Management\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+S:\Documents\DBSE\Tien\User_Management\User_Management\bin\Debug\System.Memory.dll
+S:\Documents\DBSE\Tien\User_Management\User_Management\bin\Debug\System.Text.Encodings.Web.dll
+S:\Documents\DBSE\Tien\User_Management\User_Management\bin\Debug\System.ValueTuple.dll
+S:\Documents\DBSE\Tien\User_Management\User_Management\bin\Debug\System.Buffers.dll
+S:\Documents\DBSE\Tien\User_Management\User_Management\bin\Debug\System.Numerics.Vectors.dll
+S:\Documents\DBSE\Tien\User_Management\User_Management\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+S:\Documents\DBSE\Tien\User_Management\User_Management\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+S:\Documents\DBSE\Tien\User_Management\User_Management\bin\Debug\Business_Logic_Layer.pdb
+S:\Documents\DBSE\Tien\User_Management\User_Management\bin\Debug\Business_Logic_Layer.exe.config
+S:\Documents\DBSE\Tien\User_Management\User_Management\bin\Debug\Data_Access_Layer.pdb
+S:\Documents\DBSE\Tien\User_Management\User_Management\bin\Debug\Data_Access_Layer.exe.config
+S:\Documents\DBSE\Tien\User_Management\User_Management\bin\Debug\System.Formats.Asn1.xml
+S:\Documents\DBSE\Tien\User_Management\User_Management\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+S:\Documents\DBSE\Tien\User_Management\User_Management\bin\Debug\System.Memory.xml
+S:\Documents\DBSE\Tien\User_Management\User_Management\bin\Debug\System.Text.Encodings.Web.xml
+S:\Documents\DBSE\Tien\User_Management\User_Management\obj\Debug\User_Management.csproj.AssemblyReference.cache
+S:\Documents\DBSE\Tien\User_Management\User_Management\obj\Debug\User_Management.formAudit.resources
+S:\Documents\DBSE\Tien\User_Management\User_Management\obj\Debug\User_Management.formCreateAlterUser.resources
+S:\Documents\DBSE\Tien\User_Management\User_Management\obj\Debug\User_Management.formInfo.resources
+S:\Documents\DBSE\Tien\User_Management\User_Management\obj\Debug\User_Management.formLogin.resources
+S:\Documents\DBSE\Tien\User_Management\User_Management\obj\Debug\User_Management.formMenuAdmin.resources
+S:\Documents\DBSE\Tien\User_Management\User_Management\obj\Debug\User_Management.formMenuUsers.resources
+S:\Documents\DBSE\Tien\User_Management\User_Management\obj\Debug\User_Management.formPrivileges.resources
+S:\Documents\DBSE\Tien\User_Management\User_Management\obj\Debug\User_Management.formProfiles.resources
+S:\Documents\DBSE\Tien\User_Management\User_Management\obj\Debug\User_Management.formRolePrivileges.resources
+S:\Documents\DBSE\Tien\User_Management\User_Management\obj\Debug\User_Management.formUserManagement.resources
+S:\Documents\DBSE\Tien\User_Management\User_Management\obj\Debug\User_Management.Properties.Resources.resources
+S:\Documents\DBSE\Tien\User_Management\User_Management\obj\Debug\User_Management.csproj.GenerateResource.cache
+S:\Documents\DBSE\Tien\User_Management\User_Management\obj\Debug\User_Management.csproj.CoreCompileInputs.cache
+S:\Documents\DBSE\Tien\User_Management\User_Management\obj\Debug\User_Man.59C1D476.Up2Date
+S:\Documents\DBSE\Tien\User_Management\User_Management\obj\Debug\User_Management.exe
+S:\Documents\DBSE\Tien\User_Management\User_Management\obj\Debug\User_Management.pdb
