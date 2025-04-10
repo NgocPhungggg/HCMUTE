@@ -1,0 +1,31 @@
+W:\Document For Studying\Information Project\Library_Management\Library_Management\bin\Debug\Library_Management.exe.config
+W:\Document For Studying\Information Project\Library_Management\Library_Management\bin\Debug\Library_Management.exe
+W:\Document For Studying\Information Project\Library_Management\Library_Management\bin\Debug\Library_Management.pdb
+W:\Document For Studying\Information Project\Library_Management\Library_Management\obj\Debug\Library_Management.csproj.AssemblyReference.cache
+W:\Document For Studying\Information Project\Library_Management\Library_Management\obj\Debug\Library_Management.csproj.SuggestedBindingRedirects.cache
+W:\Document For Studying\Information Project\Library_Management\Library_Management\obj\Debug\Library_Management.Forms.Login.resources
+W:\Document For Studying\Information Project\Library_Management\Library_Management\obj\Debug\Library_Management.Properties.Resources.resources
+W:\Document For Studying\Information Project\Library_Management\Library_Management\obj\Debug\Library_Management.csproj.GenerateResource.cache
+W:\Document For Studying\Information Project\Library_Management\Library_Management\obj\Debug\Library_Management.csproj.CoreCompileInputs.cache
+W:\Document For Studying\Information Project\Library_Management\Library_Management\obj\Debug\Library_Management.exe
+W:\Document For Studying\Information Project\Library_Management\Library_Management\obj\Debug\Library_Management.pdb
+W:\Document For Studying\Information Project\Library_Management\Library_Management\obj\Debug\Library_Management.Forms.Home.resources
+W:\Document For Studying\Information Project\Library_Management\Library_Management\obj\Debug\Library_Management.Forms.ChangePassword.resources
+D:\PROJ (IT Project)\Library_Management\Library_Management\obj\Debug\Library_Management.csproj.AssemblyReference.cache
+D:\PROJ (IT Project)\Library_Management\Library_Management\obj\Debug\Library_Management.Forms.ChangePassword.resources
+D:\PROJ (IT Project)\Library_Management\Library_Management\obj\Debug\Library_Management.Forms.ForReader.resources
+D:\PROJ (IT Project)\Library_Management\Library_Management\obj\Debug\Library_Management.Forms.Home.resources
+D:\PROJ (IT Project)\Library_Management\Library_Management\obj\Debug\Library_Management.Forms.Login.resources
+D:\PROJ (IT Project)\Library_Management\Library_Management\obj\Debug\Library_Management.Properties.Resources.resources
+D:\PROJ (IT Project)\Library_Management\Library_Management\obj\Debug\Library_Management.csproj.GenerateResource.cache
+D:\PROJ (IT Project)\Library_Management\Library_Management\obj\Debug\Library_Management.csproj.CoreCompileInputs.cache
+D:\PROJ (IT Project)\Library_Management\Library_Management\obj\Debug\Library_Management.exe
+D:\PROJ (IT Project)\Library_Management\Library_Management\obj\Debug\Library_Management.pdb
+D:\PROJ (IT Project)\Library_Management\Library_Management\bin\Debug\Library_Management.exe.config
+D:\PROJ (IT Project)\Library_Management\Library_Management\bin\Debug\Library_Management.exe
+D:\PROJ (IT Project)\Library_Management\Library_Management\bin\Debug\Library_Management.pdb
+D:\PROJ (IT Project)\Library_Management\Library_Management\obj\Debug\Library.Show.ManageBooks.resources
+D:\PROJ (IT Project)\Library_Management\Library_Management\obj\Debug\Library_Management.Forms.ManageBorrowBooks.resources
+D:\PROJ (IT Project)\Library_Management\Library_Management\obj\Debug\Library_Management.Forms.ManageEmployees.resources
+D:\PROJ (IT Project)\Library_Management\Library_Management\obj\Debug\Library_Management.Forms.ManageReaders.resources
+D:\PROJ (IT Project)\Library_Management\Library_Management\obj\Debug\Library_Management.Forms.Statistics.resources
