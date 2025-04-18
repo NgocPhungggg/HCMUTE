@@ -1,0 +1,82 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>SSAS_Final_College</Database>
+    <Server>NgocPhung\NGOCPHUNG</Server>
+    <ConnectionString>Data Source=NgocPhung\NGOCPHUNG;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>rs23V2Cbldy2qbfAThaJQA1D2lc=4/18/2025 10:02:27 PM4/18/2025 6:13:43 PM</TimeStamp>
+        <ID>
+          <String>College_Completion_DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>0obEsWQJVnAET7KN1C1CpYVP7aM=4/18/2025 6:15:16 PM4/18/2025 6:15:15 PM</TimeStamp>
+        <ID>
+          <String>College_Completion_DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>k+pmbFV1iq1Lt9Awk5LWTn7wUMI=4/18/2025 9:07:40 PM4/18/2025 9:07:14 PM</TimeStamp>
+        <ID>
+          <String>Dim Location</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>wZAcPIR05lhTZUWRCS04SSNQFZw=4/18/2025 9:07:14 PM4/18/2025 9:07:14 PM</TimeStamp>
+        <ID>
+          <String>Dim Carnegie</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>gsvyEyRbw5uLX2ZvW9BqU/x9yks=4/18/2025 9:07:14 PM4/18/2025 9:07:14 PM</TimeStamp>
+        <ID>
+          <String>Fact Detail</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>UHRNPhVWAaq40qWs/FPeAVoNfCY=4/18/2025 9:07:14 PM4/18/2025 9:07:14 PM</TimeStamp>
+        <ID>
+          <String>Dim State</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>8B5gDb3DYa6SMHSDyvGcdfpjgic=4/18/2025 9:07:40 PM4/18/2025 9:07:14 PMKFNr/XKvqIHDbGWMM5RwKh8qNWs=4/18/2025 9:07:14 PM4/18/2025 9:07:14 PM</TimeStamp>
+        <ID>
+          <String>Detail</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>HIRqilQZSvt40mU4HNA4ZLcZgsQ=4/18/2025 4:52:25 PM4/18/2025 4:52:25 PM</TimeStamp>
+      <ID>
+        <String>SSAS_Final_College</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2025-04-18T15:02:40.86Z</LastDeployed>
+</DeploymentSnapshot>
