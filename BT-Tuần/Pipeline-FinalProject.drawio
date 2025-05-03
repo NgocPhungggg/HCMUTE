@@ -10,7 +10,7 @@
         <mxCell id="XeS882bQZKqfGsmT-JNR-3" value="&lt;div&gt;Real-time Data Source&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="160" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XeS882bQZKqfGsmT-JNR-4" value="(Kafka/Flume/Socket) " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="XeS882bQZKqfGsmT-JNR-3">
+        <mxCell id="XeS882bQZKqfGsmT-JNR-4" value="(Kafka/Socket) " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="XeS882bQZKqfGsmT-JNR-3">
           <mxGeometry y="30" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XeS882bQZKqfGsmT-JNR-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XeS882bQZKqfGsmT-JNR-8" target="XeS882bQZKqfGsmT-JNR-39">
