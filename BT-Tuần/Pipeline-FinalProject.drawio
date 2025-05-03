@@ -8,10 +8,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XeS882bQZKqfGsmT-JNR-3" value="&lt;div&gt;Real-time Data Source&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="160" width="200" height="60" as="geometry" />
+          <mxGeometry x="80" y="160" width="200" height="90" as="geometry" />
         </mxCell>
         <mxCell id="XeS882bQZKqfGsmT-JNR-4" value="(Kafka/Socket) " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="XeS882bQZKqfGsmT-JNR-3">
           <mxGeometry y="30" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XeS882bQZKqfGsmT-JNR-40" value="Language: Python " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="XeS882bQZKqfGsmT-JNR-3">
+          <mxGeometry y="60" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XeS882bQZKqfGsmT-JNR-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XeS882bQZKqfGsmT-JNR-8" target="XeS882bQZKqfGsmT-JNR-39">
           <mxGeometry relative="1" as="geometry">
@@ -19,7 +22,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="XeS882bQZKqfGsmT-JNR-8" value="&lt;div&gt; Storage Layer  &lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="400" width="200" height="120" as="geometry" />
+          <mxGeometry x="560" y="400" width="200" height="150" as="geometry" />
         </mxCell>
         <mxCell id="XeS882bQZKqfGsmT-JNR-10" value="Bronze (Raw zone)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="XeS882bQZKqfGsmT-JNR-8">
           <mxGeometry y="30" width="200" height="30" as="geometry" />
@@ -30,11 +33,14 @@
         <mxCell id="XeS882bQZKqfGsmT-JNR-11" value="Gold (Aggregated zone&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="XeS882bQZKqfGsmT-JNR-8">
           <mxGeometry y="90" width="200" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="XeS882bQZKqfGsmT-JNR-46" value="Tools: Databricks&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="XeS882bQZKqfGsmT-JNR-8">
+          <mxGeometry y="120" width="200" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="XeS882bQZKqfGsmT-JNR-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XeS882bQZKqfGsmT-JNR-12" target="XeS882bQZKqfGsmT-JNR-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XeS882bQZKqfGsmT-JNR-12" value="&lt;div&gt; Ingestion Layer &lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="400" width="200" height="90" as="geometry" />
+          <mxGeometry x="240" y="400" width="200" height="150" as="geometry" />
         </mxCell>
         <mxCell id="XeS882bQZKqfGsmT-JNR-13" value="Kafka Consumer " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="XeS882bQZKqfGsmT-JNR-12">
           <mxGeometry y="30" width="200" height="30" as="geometry" />
@@ -42,11 +48,17 @@
         <mxCell id="XeS882bQZKqfGsmT-JNR-14" value="PySpark Streaming" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="XeS882bQZKqfGsmT-JNR-12">
           <mxGeometry y="60" width="200" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="XeS882bQZKqfGsmT-JNR-42" value="Language: PySpark" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="XeS882bQZKqfGsmT-JNR-12">
+          <mxGeometry y="90" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XeS882bQZKqfGsmT-JNR-43" value="Tools: Spark (local mode)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="XeS882bQZKqfGsmT-JNR-12">
+          <mxGeometry y="120" width="200" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="XeS882bQZKqfGsmT-JNR-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XeS882bQZKqfGsmT-JNR-17" target="XeS882bQZKqfGsmT-JNR-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XeS882bQZKqfGsmT-JNR-17" value="&lt;div&gt;Processing Layer &lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="160" width="200" height="120" as="geometry" />
+          <mxGeometry x="400" y="160" width="200" height="180" as="geometry" />
         </mxCell>
         <mxCell id="XeS882bQZKqfGsmT-JNR-19" value="Schema validation" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="XeS882bQZKqfGsmT-JNR-17">
           <mxGeometry y="30" width="200" height="30" as="geometry" />
@@ -57,16 +69,25 @@
         <mxCell id="XeS882bQZKqfGsmT-JNR-37" value="Aggregation, Joins,&amp;nbsp;Enrichment" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="XeS882bQZKqfGsmT-JNR-17">
           <mxGeometry y="90" width="200" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="XeS882bQZKqfGsmT-JNR-44" value="Language: PySpark" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="XeS882bQZKqfGsmT-JNR-17">
+          <mxGeometry y="120" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XeS882bQZKqfGsmT-JNR-45" value="Tools: Spark (local mode)&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="XeS882bQZKqfGsmT-JNR-17">
+          <mxGeometry y="150" width="200" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="XeS882bQZKqfGsmT-JNR-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="XeS882bQZKqfGsmT-JNR-21" target="XeS882bQZKqfGsmT-JNR-25">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="880" y="475" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="XeS882bQZKqfGsmT-JNR-21" value="&lt;div&gt; Serving Layer   &lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="720" y="160" width="200" height="60" as="geometry" />
+          <mxGeometry x="720" y="160" width="200" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="XeS882bQZKqfGsmT-JNR-39" value="DashBoard (Power BI)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="XeS882bQZKqfGsmT-JNR-21">
+        <mxCell id="XeS882bQZKqfGsmT-JNR-39" value="DashBoard" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="XeS882bQZKqfGsmT-JNR-21">
           <mxGeometry y="30" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XeS882bQZKqfGsmT-JNR-47" value="Tools: Power BI" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="XeS882bQZKqfGsmT-JNR-21">
+          <mxGeometry y="60" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XeS882bQZKqfGsmT-JNR-25" value="&lt;div&gt; Monitoring Layer   &lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="880" y="400" width="200" height="60" as="geometry" />
