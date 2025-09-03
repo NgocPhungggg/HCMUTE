@@ -1,0 +1,220 @@
+[{
+  "_id": {
+    "$oid": "682707019063f84c998cb825"
+  },
+  "loanId": "L001",
+  "staffUsername": "staff_ngocphung",
+  "transactionDate": {
+    "$date": "2025-05-01T09:00:00.000Z"
+  },
+  "type": "Payment",
+  "amount": 100
+},
+{
+  "_id": {
+    "$oid": "682707019063f84c998cb827"
+  },
+  "loanId": "L002",
+  "staffUsername": "staff_tien",
+  "transactionDate": {
+    "$date": "2025-05-05T11:15:00.000Z"
+  },
+  "type": "LateFee",
+  "amount": 10
+},
+{
+  "_id": {
+    "$oid": "6828a074683dca624c143530"
+  },
+  "loanId": "L003",
+  "staffUsername": "test",
+  "transactionDate": {
+    "$date": "2025-05-17T14:42:22.682Z"
+  },
+  "type": "Fine",
+  "amount": {
+    "$numberDecimal": "444"
+  }
+},
+{
+  "_id": {
+    "$oid": "6829012dc878c50c283b475c"
+  },
+  "loanId": "L005",
+  "staffUsername": "staff_ngocphung",
+  "transactionDate": {
+    "$date": "2025-05-07T21:35:24.000Z"
+  },
+  "type": "LateFee",
+  "amount": {
+    "$numberDecimal": "12000"
+  }
+},
+{
+  "_id": {
+    "$oid": "6833198e89750fc574d2483a"
+  },
+  "loanId": "L009",
+  "staffUsername": "staff_tien",
+  "transactionDate": {
+    "$date": "2025-05-25T13:22:05.174Z"
+  },
+  "type": "Payment",
+  "amount": {
+    "$numberDecimal": "312314"
+  }
+},
+{
+  "_id": {
+    "$oid": "68332c1755011ade108aaa71"
+  },
+  "loanId": "L011",
+  "staffUsername": "staff_tien",
+  "transactionDate": {
+    "$date": "2025-05-25T14:41:19.844Z"
+  },
+  "type": "Payment",
+  "amount": {
+    "$numberDecimal": "3124"
+  }
+},
+{
+  "_id": {
+    "$oid": "68332c2d55011ade108aaa72"
+  },
+  "loanId": "L012",
+  "staffUsername": "staff_tien",
+  "transactionDate": {
+    "$date": "2025-05-25T14:41:36.519Z"
+  },
+  "type": "LateFee",
+  "amount": {
+    "$numberDecimal": "7292000"
+  }
+},
+{
+  "_id": {
+    "$oid": "68332c3f55011ade108aaa73"
+  },
+  "loanId": "L014",
+  "staffUsername": "staff_tien",
+  "transactionDate": {
+    "$date": "2025-05-25T14:41:56.265Z"
+  },
+  "type": "Payment",
+  "amount": {
+    "$numberDecimal": "123508"
+  }
+},
+{
+  "_id": {
+    "$oid": "68332c7455011ade108aaa74"
+  },
+  "loanId": "L021",
+  "staffUsername": "staff_tien",
+  "transactionDate": {
+    "$date": "2025-05-25T14:42:53.691Z"
+  },
+  "type": "LateFee",
+  "amount": {
+    "$numberDecimal": "123463"
+  }
+},
+{
+  "_id": {
+    "$oid": "68332c8a55011ade108aaa75"
+  },
+  "loanId": "L016",
+  "staffUsername": "staff_tien",
+  "transactionDate": {
+    "$date": "2025-05-25T14:43:13.000Z"
+  },
+  "type": "LateFee",
+  "amount": {
+    "$numberDecimal": "450000"
+  }
+},
+{
+  "_id": {
+    "$oid": "68332ca655011ade108aaa76"
+  },
+  "loanId": "L018",
+  "staffUsername": "staff_tien",
+  "transactionDate": {
+    "$date": "2025-05-25T14:43:40.000Z"
+  },
+  "type": "Payment",
+  "amount": {
+    "$numberDecimal": "497300"
+  }
+},
+{
+  "_id": {
+    "$oid": "68332cbc55011ade108aaa77"
+  },
+  "loanId": "L008",
+  "staffUsername": "staff_tien",
+  "transactionDate": {
+    "$date": "2025-05-25T14:44:05.878Z"
+  },
+  "type": "Fine",
+  "amount": {
+    "$numberDecimal": "980000"
+  }
+},
+{
+  "_id": {
+    "$oid": "68332cce55011ade108aaa78"
+  },
+  "loanId": "L019",
+  "staffUsername": "staff_tien",
+  "transactionDate": {
+    "$date": "2025-05-25T14:44:20.795Z"
+  },
+  "type": "Payment",
+  "amount": {
+    "$numberDecimal": "6532000"
+  }
+},
+{
+  "_id": {
+    "$oid": "68332cea55011ade108aaa79"
+  },
+  "loanId": "L010",
+  "staffUsername": "staff_tien",
+  "transactionDate": {
+    "$date": "2025-05-26T14:44:40.000Z"
+  },
+  "type": "Payment",
+  "amount": {
+    "$numberDecimal": "872910"
+  }
+},
+{
+  "_id": {
+    "$oid": "6833ccfa162666cb8399a192"
+  },
+  "loanId": "L004",
+  "staffUsername": "staff_tien",
+  "transactionDate": {
+    "$date": "2025-05-26T02:07:40.945Z"
+  },
+  "type": "Payment",
+  "amount": {
+    "$numberDecimal": "21345"
+  }
+},
+{
+  "_id": {
+    "$oid": "6833d0e5523274a138bcfe0c"
+  },
+  "loanId": "L012",
+  "staffUsername": "staff_tien",
+  "transactionDate": {
+    "$date": "2025-05-26T02:24:00.807Z"
+  },
+  "type": "Payment",
+  "amount": {
+    "$numberDecimal": "0"
+  }
+}]

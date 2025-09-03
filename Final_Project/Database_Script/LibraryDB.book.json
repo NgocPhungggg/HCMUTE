@@ -1,0 +1,184 @@
+[{
+  "_id": {
+    "$oid": "6828fc7e418e3d06d5fbedfc"
+  },
+  "bookId": "B004",
+  "title": "Think and Grow Rich",
+  "authorName": "Napoleon Hill",
+  "publishedYear": {
+    "$date": {
+      "$numberLong": "-1041379200000"
+    }
+  },
+  "categoryName": "Sách văn học nước ngoài"
+},
+{
+  "_id": {
+    "$oid": "6828fc7e418e3d06d5fbedfd"
+  },
+  "bookId": "B005",
+  "title": "Đắc nhân tâm",
+  "authorName": "Dale Carnegie",
+  "publishedYear": {
+    "$date": {
+      "$numberLong": "-1073001600000"
+    }
+  },
+  "categoryName": "Sách xã hội học"
+},
+{
+  "_id": {
+    "$oid": "6828fc7e418e3d06d5fbee06"
+  },
+  "bookId": "B014",
+  "title": "Bí mật của Phan Thiên Ân",
+  "authorName": "Og Mandino",
+  "publishedYear": {
+    "$date": {
+      "$numberLong": "-63158400000"
+    }
+  },
+  "categoryName": "Sách chuyên ngành"
+},
+{
+  "_id": {
+    "$oid": "6828fc7e418e3d06d5fbedf9"
+  },
+  "bookId": "B001",
+  "title": "Sapiens: Lược sử loài người",
+  "authorName": "Yuval Noah Harari",
+  "publishedYear": {
+    "$date": "2011-01-01T00:00:00.000Z"
+  },
+  "categoryName": "Sách lịch sử"
+},
+{
+  "_id": {
+    "$oid": "6828fc7e418e3d06d5fbee00"
+  },
+  "bookId": "B008",
+  "title": "Tuổi trẻ đáng giá bao nhiêu",
+  "authorName": "Rosie Nguyễn",
+  "publishedYear": {
+    "$date": "2016-01-01T00:00:00.000Z"
+  },
+  "categoryName": "Sách văn học Việt Nam"
+},
+{
+  "_id": {
+    "$oid": "6828fc7e418e3d06d5fbee01"
+  },
+  "bookId": "B009",
+  "title": "Một đời quản trị",
+  "authorName": "Nguyễn Duy Cương",
+  "publishedYear": {
+    "$date": "2021-01-01T00:00:00.000Z"
+  },
+  "categoryName": "Sách kinh tế"
+},
+{
+  "_id": {
+    "$oid": "6828fc7e418e3d06d5fbee04"
+  },
+  "bookId": "B012",
+  "title": "Tôi tài giỏi, bạn cũng thế!",
+  "authorName": "Adam Khoo",
+  "publishedYear": {
+    "$date": "2002-01-01T00:00:00.000Z"
+  },
+  "categoryName": "Sách kỹ năng mềm"
+},
+{
+  "_id": {
+    "$oid": "6828fc7e418e3d06d5fbee07"
+  },
+  "bookId": "B015",
+  "title": "Thiên tài bên trái, kẻ điên bên phải",
+  "authorName": "Keyes",
+  "publishedYear": {
+    "$date": "2016-01-01T00:00:00.000Z"
+  },
+  "categoryName": "Sách tâm lý học"
+},
+{
+  "_id": {
+    "$oid": "6828fc7e418e3d06d5fbedfa"
+  },
+  "bookId": "B002",
+  "title": "Homo Deus: Lược sử tương lai",
+  "authorName": "Yuval Noah Harari",
+  "publishedYear": {
+    "$date": "2015-01-01T00:00:00.000Z"
+  },
+  "categoryName": "Sách khoa học"
+},
+{
+  "_id": {
+    "$oid": "6828fc7e418e3d06d5fbedfb"
+  },
+  "bookId": "B003",
+  "title": "21 bài học cho thế kỷ 21",
+  "authorName": "Yuval Noah Harari",
+  "publishedYear": {
+    "$date": "2018-01-01T00:00:00.000Z"
+  },
+  "categoryName": "Sách văn học nước ngoài"
+},
+{
+  "_id": {
+    "$oid": "6828fc7e418e3d06d5fbedfe"
+  },
+  "bookId": "B006",
+  "title": "Nhà giả kim",
+  "authorName": "Paulo Coelho",
+  "publishedYear": "1988-01-01T00:00:00Z",
+  "categoryName": "Văn học nước ngoài"
+},
+{
+  "_id": {
+    "$oid": "6828fc7e418e3d06d5fbee02"
+  },
+  "bookId": "B010",
+  "title": "Tư duy nhanh và chậm",
+  "authorName": "Daniel Kahneman",
+  "publishedYear": {
+    "$date": "2011-01-01T00:00:00.000Z"
+  },
+  "categoryName": "Sách tâm lý học"
+},
+{
+  "_id": {
+    "$oid": "6828fc7e418e3d06d5fbee05"
+  },
+  "bookId": "B013",
+  "title": "Dám bị ghét",
+  "authorName": "Ichiro Kishimi & Fumitake Koga",
+  "publishedYear": {
+    "$date": "2013-01-01T00:00:00.000Z"
+  },
+  "categoryName": "Sách tâm lý học"
+},
+{
+  "_id": {
+    "$oid": "6828fc7e418e3d06d5fbedff"
+  },
+  "bookId": "B007",
+  "title": "Cha giàu cha nghèo",
+  "authorName": "Robert T. Kiyosaki",
+  "publishedYear": {
+    "$date": "1997-01-01T00:00:00.000Z"
+  },
+  "categoryName": "Sách tham khảo"
+},
+{
+  "_id": {
+    "$oid": "6828fc7e418e3d06d5fbee03"
+  },
+  "bookId": "B011",
+  "title": "7 thói quen của người thành đạt",
+  "authorName": "Stephen R. Covey",
+  "publishedYear": {
+    "$date": "1989-01-01T00:00:00.000Z"
+  },
+  "categoryName": "Sách tham khảo"
+}]

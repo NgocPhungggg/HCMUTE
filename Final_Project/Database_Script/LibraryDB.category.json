@@ -1,0 +1,240 @@
+[{
+  "_id": {
+    "$oid": "6828fba5418e3d06d5fbeddd"
+  },
+  "categoryId": "3",
+  "categoryName": "Sách tham khảo",
+  "description": "Tài liệu hỗ trợ học tập, nâng cao kiến thức"
+},
+{
+  "_id": {
+    "$oid": "6828fba5418e3d06d5fbede0"
+  },
+  "categoryId": "6",
+  "categoryName": "Sách tâm lý học",
+  "description": "Tâm lý học ứng dụng, phát triển bản thân"
+},
+{
+  "_id": {
+    "$oid": "6828fba5418e3d06d5fbede3"
+  },
+  "categoryId": "9",
+  "categoryName": "Sách khoa học",
+  "description": "Tài liệu kiến thức khoa học tự nhiên"
+},
+{
+  "_id": {
+    "$oid": "6828fba5418e3d06d5fbede8"
+  },
+  "categoryId": "14",
+  "categoryName": "Sách ngoại ngữ",
+  "description": "Tiếng Anh, Nhật, Hàn, Trung..."
+},
+{
+  "_id": {
+    "$oid": "6828fba5418e3d06d5fbedef"
+  },
+  "categoryId": "21",
+  "categoryName": "Sách nghệ thuật",
+  "description": "Hội họa, âm nhạc, điện ảnh..."
+},
+{
+  "_id": {
+    "$oid": "6828fba5418e3d06d5fbedf1"
+  },
+  "categoryId": "23",
+  "categoryName": "Sách môi trường",
+  "description": "Sinh thái học, môi trường học"
+},
+{
+  "_id": {
+    "$oid": "6828fba5418e3d06d5fbeddb"
+  },
+  "categoryId": "1",
+  "categoryName": "Sách giáo khoa",
+  "description": "Sách dành cho chương trình học chính quy"
+},
+{
+  "_id": {
+    "$oid": "6828fba5418e3d06d5fbeddc"
+  },
+  "categoryId": "2",
+  "categoryName": "Sách chuyên ngành",
+  "description": "Sách phục vụ học tập và nghiên cứu chuyên ngành"
+},
+{
+  "_id": {
+    "$oid": "6828fba5418e3d06d5fbedde"
+  },
+  "categoryId": "4",
+  "categoryName": "Tài liệu nghiên cứu",
+  "description": "Tài liệu dành cho nghiên cứu chuyên sâu"
+},
+{
+  "_id": {
+    "$oid": "6828fba5418e3d06d5fbede4"
+  },
+  "categoryId": "10",
+  "categoryName": "Sách công nghệ thông tin",
+  "description": "Tài liệu về CNTT, lập trình, AI"
+},
+{
+  "_id": {
+    "$oid": "6828fba5418e3d06d5fbedea"
+  },
+  "categoryId": "16",
+  "categoryName": "Sách thiếu nhi",
+  "description": "Sách cho trẻ em"
+},
+{
+  "_id": {
+    "$oid": "6828fba5418e3d06d5fbedec"
+  },
+  "categoryId": "18",
+  "categoryName": "Sách lịch sử",
+  "description": "Tài liệu và truyện lịch sử"
+},
+{
+  "_id": {
+    "$oid": "6828fba5418e3d06d5fbeded"
+  },
+  "categoryId": "19",
+  "categoryName": "Sách du lịch",
+  "description": "Hướng dẫn, trải nghiệm du lịch"
+},
+{
+  "_id": {
+    "$oid": "6828fba5418e3d06d5fbedf0"
+  },
+  "categoryId": "22",
+  "categoryName": "Sách kiến trúc - xây dựng",
+  "description": "Tài liệu ngành kiến trúc, xây dựng"
+},
+{
+  "_id": {
+    "$oid": "6828fba5418e3d06d5fbedf4"
+  },
+  "categoryId": "26",
+  "categoryName": "Sách xã hội học",
+  "description": "Tài liệu nghiên cứu xã hội"
+},
+{
+  "_id": {
+    "$oid": "6828fba5418e3d06d5fbedf7"
+  },
+  "categoryId": "29",
+  "categoryName": "Sách phong thủy",
+  "description": "Tử vi, phong thủy, ngũ hành"
+},
+{
+  "_id": {
+    "$oid": "6828fba5418e3d06d5fbeddf"
+  },
+  "categoryId": "5",
+  "categoryName": "Sách kỹ năng mềm",
+  "description": "Rèn luyện kỹ năng sống, làm việc"
+},
+{
+  "_id": {
+    "$oid": "6828fba5418e3d06d5fbede1"
+  },
+  "categoryId": "7",
+  "categoryName": "Sách văn học Việt Nam",
+  "description": "Tác phẩm văn học trong nước"
+},
+{
+  "_id": {
+    "$oid": "6828fba5418e3d06d5fbede2"
+  },
+  "categoryId": "8",
+  "categoryName": "Sách văn học nước ngoài",
+  "description": "Tác phẩm văn học kinh điển, hiện đại quốc tế"
+},
+{
+  "_id": {
+    "$oid": "6828fba5418e3d06d5fbede7"
+  },
+  "categoryId": "13",
+  "categoryName": "Sách y học",
+  "description": "Tài liệu ngành y, chăm sóc sức khỏe"
+},
+{
+  "_id": {
+    "$oid": "6828fba5418e3d06d5fbede9"
+  },
+  "categoryId": "15",
+  "categoryName": "Từ điển",
+  "description": "Các loại từ điển, tra cứu"
+},
+{
+  "_id": {
+    "$oid": "6828fba5418e3d06d5fbedee"
+  },
+  "categoryId": "20",
+  "categoryName": "Sách nấu ăn",
+  "description": "Ẩm thực, công thức món ngon"
+},
+{
+  "_id": {
+    "$oid": "6828fba5418e3d06d5fbedf5"
+  },
+  "categoryId": "27",
+  "categoryName": "Sách chính trị",
+  "description": "Chính trị học, đường lối"
+},
+{
+  "_id": {
+    "$oid": "6828fba5418e3d06d5fbede5"
+  },
+  "categoryId": "11",
+  "categoryName": "Sách kinh tế",
+  "description": "Kinh doanh, tài chính, quản trị"
+},
+{
+  "_id": {
+    "$oid": "6828fba5418e3d06d5fbede6"
+  },
+  "categoryId": "12",
+  "categoryName": "Sách pháp luật",
+  "description": "Tài liệu luật pháp và quy định"
+},
+{
+  "_id": {
+    "$oid": "6828fba5418e3d06d5fbedeb"
+  },
+  "categoryId": "17",
+  "categoryName": "Truyện tranh",
+  "description": "Manga, comic, graphic novel"
+},
+{
+  "_id": {
+    "$oid": "6828fba5418e3d06d5fbedf2"
+  },
+  "categoryId": "24",
+  "categoryName": "Sách giáo dục học",
+  "description": "Phương pháp giảng dạy, sư phạm"
+},
+{
+  "_id": {
+    "$oid": "6828fba5418e3d06d5fbedf3"
+  },
+  "categoryId": "25",
+  "categoryName": "Sách triết học",
+  "description": "Triết lý, tư tưởng học"
+},
+{
+  "_id": {
+    "$oid": "6828fba5418e3d06d5fbedf6"
+  },
+  "categoryId": "28",
+  "categoryName": "Sách tôn giáo",
+  "description": "Phật giáo, Thiên Chúa giáo, v.v."
+},
+{
+  "_id": {
+    "$oid": "6828fba5418e3d06d5fbedf8"
+  },
+  "categoryId": "30",
+  "categoryName": "Sách đời sống",
+  "description": "Gia đình, tình yêu, sức khỏe"
+}]

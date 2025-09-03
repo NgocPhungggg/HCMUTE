@@ -1,0 +1,212 @@
+[{
+  "_id": {
+    "$oid": "6823ed738243a1fd73403984"
+  },
+  "username": "21110276",
+  "readerName": "Cao Thị Ngọc Phụng",
+  "birthdate": {
+    "$date": "2003-11-17T17:00:00.000Z"
+  },
+  "phone": "03631810362",
+  "email": "21110276@student.hcmute.edu.vn",
+  "address": "Tân Lập 2, Thủ Đức, Việt Nam",
+  "position": "Sinh viên"
+},
+{
+  "_id": {
+    "$oid": "6824a788c557bface7bff956"
+  },
+  "username": "21110319",
+  "readerName": "Trần Văn Tiến",
+  "birthdate": {
+    "$date": "2003-11-17T17:00:00.000Z"
+  },
+  "phone": "0315599262",
+  "email": "21110319@student.hcmute.edu.vn",
+  "address": "Thủ Đức, Việt Nam",
+  "position": "Sinh viên"
+},
+{
+  "_id": {
+    "$oid": "6828ffee418e3d06d5fbee23"
+  },
+  "username": "21110013",
+  "readerName": "Võ Văn Phong",
+  "birthdate": "2003-06-16T00:00:00Z",
+  "phone": "0909011222",
+  "email": "21110013@student.hcmute.edu.vn",
+  "address": "Quận 10, TP.HCM",
+  "position": "Sinh viên"
+},
+{
+  "_id": {
+    "$oid": "6828ffee418e3d06d5fbee1d"
+  },
+  "username": "21110007",
+  "readerName": "Nguyễn Minh Tuấn",
+  "birthdate": "2003-01-19T00:00:00Z",
+  "phone": "0909000111",
+  "email": "21110007@student.hcmute.edu.vn",
+  "address": "Bình Thạnh, TP.HCM",
+  "position": "Sinh viên"
+},
+{
+  "_id": {
+    "$oid": "6828ffee418e3d06d5fbee1f"
+  },
+  "username": "21110009",
+  "readerName": "Phạm Duy Khánh",
+  "birthdate": "2001-10-15T00:00:00Z",
+  "phone": "0933455666",
+  "email": "21110009@student.hcmute.edu.vn",
+  "address": "Thủ Đức, TP.HCM",
+  "position": "Sinh viên"
+},
+{
+  "_id": {
+    "$oid": "6828ffee418e3d06d5fbee20"
+  },
+  "username": "21110010",
+  "readerName": "Nguyễn Thị Hồng Nhung",
+  "birthdate": "2003-03-08T00:00:00Z",
+  "phone": "0932333444",
+  "email": "21110010@student.hcmute.edu.vn",
+  "address": "Quận 3, TP.HCM",
+  "position": "Sinh viên"
+},
+{
+  "_id": {
+    "$oid": "6828ffee418e3d06d5fbee22"
+  },
+  "username": "21110012",
+  "readerName": "Trần Thị Kim Ngân",
+  "birthdate": "2002-09-01T00:00:00Z",
+  "phone": "0912345678",
+  "email": "21110012@student.hcmute.edu.vn",
+  "address": "Thủ Đức, TP.HCM",
+  "position": "Sinh viên"
+},
+{
+  "_id": {
+    "$oid": "6828ffee418e3d06d5fbee25"
+  },
+  "username": "21110015",
+  "readerName": "Ngô Thị Thu Trang",
+  "birthdate": "2002-12-12T00:00:00Z",
+  "phone": "0938899000",
+  "email": "21110015@student.hcmute.edu.vn",
+  "address": "Thủ Đức, TP.HCM",
+  "position": "Sinh viên"
+},
+{
+  "_id": {
+    "$oid": "6828ffee418e3d06d5fbee17"
+  },
+  "username": "21110001",
+  "readerName": "Đinh Thị Thúy Quỳnh",
+  "birthdate": {
+    "$date": "2003-11-17T17:00:00.000Z"
+  },
+  "phone": "03631810362",
+  "email": "21110001@student.hcmute.edu.vn",
+  "address": "Tân Lập 2, Thủ Đức, Việt Nam",
+  "position": "Sinh viên"
+},
+{
+  "_id": {
+    "$oid": "6828ffee418e3d06d5fbee19"
+  },
+  "username": "21110003",
+  "readerName": "Nguyễn Thị Thúy Quỳnh",
+  "birthdate": "2002-08-10T00:00:00Z",
+  "phone": "0909112233",
+  "email": "21110003@student.hcmute.edu.vn",
+  "address": "Thủ Đức, TP.HCM",
+  "position": "Sinh viên"
+},
+{
+  "_id": {
+    "$oid": "6828ffee418e3d06d5fbee1b"
+  },
+  "username": "21110005",
+  "readerName": "Lê Thị B",
+  "birthdate": "2002-05-01T00:00:00Z",
+  "phone": "0933111222",
+  "email": "21110005@student.hcmute.edu.vn",
+  "address": "Gò Vấp, TP.HCM",
+  "position": "Sinh viên"
+},
+{
+  "_id": {
+    "$oid": "6828ffee418e3d06d5fbee1c"
+  },
+  "username": "21110006",
+  "readerName": "Phạm Quốc Bảo",
+  "birthdate": "2001-07-12T00:00:00Z",
+  "phone": "0909888777",
+  "email": "21110006@student.hcmute.edu.vn",
+  "address": "Thủ Đức, TP.HCM",
+  "position": "Sinh viên"
+},
+{
+  "_id": {
+    "$oid": "6828ffee418e3d06d5fbee1e"
+  },
+  "username": "21110008",
+  "readerName": "Trần Thị Hồng",
+  "birthdate": "2002-02-02T00:00:00Z",
+  "phone": "0909555444",
+  "email": "21110008@student.hcmute.edu.vn",
+  "address": "Quận 7, TP.HCM",
+  "position": "Sinh viên"
+},
+{
+  "_id": {
+    "$oid": "6828ffee418e3d06d5fbee21"
+  },
+  "username": "21110011",
+  "readerName": "Đặng Lê Nguyên Vũ",
+  "birthdate": "2000-12-20T00:00:00Z",
+  "phone": "0909222111",
+  "email": "21110011@student.hcmute.edu.vn",
+  "address": "Phú Nhuận, TP.HCM",
+  "position": "Sinh viên"
+},
+{
+  "_id": {
+    "$oid": "6828ffee418e3d06d5fbee24"
+  },
+  "username": "21110014",
+  "readerName": "Lê Minh Trí",
+  "birthdate": "2001-05-05T00:00:00Z",
+  "phone": "0909988776",
+  "email": "21110014@student.hcmute.edu.vn",
+  "address": "Tân Bình, TP.HCM",
+  "position": "Sinh viên"
+},
+{
+  "_id": {
+    "$oid": "6828ffee418e3d06d5fbee18"
+  },
+  "username": "21110002",
+  "readerName": "Nguyễn Văn Hào",
+  "birthdate": {
+    "$date": "2003-12-16T17:00:00.000Z"
+  },
+  "phone": "0315599262",
+  "email": "21110002@student.hcmute.edu.vn",
+  "address": "Thủ Đức, Việt Nam",
+  "position": "Sinh viên"
+},
+{
+  "_id": {
+    "$oid": "6828ffee418e3d06d5fbee1a"
+  },
+  "username": "21110004",
+  "readerName": "Nguyễn Văn A",
+  "birthdate": "2001-04-21T00:00:00Z",
+  "phone": "0987654321",
+  "email": "21110004@student.hcmute.edu.vn",
+  "address": "Quận 9, TP.HCM",
+  "position": "Sinh viên"
+}]

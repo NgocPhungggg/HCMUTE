@@ -1,0 +1,152 @@
+[{
+  "_id": {
+    "$oid": "6828fdd8418e3d06d5fbee09"
+  },
+  "authorId": "2",
+  "authorName": "Napoleon Hill",
+  "dateOfBirth": "1883-10-26T00:00:00Z",
+  "nationality": "American",
+  "description": "Cha đẻ của dòng sách phát triển bản thân"
+},
+{
+  "_id": {
+    "$oid": "6828fdd8418e3d06d5fbee0f"
+  },
+  "authorId": "8",
+  "authorName": "Daniel Kahneman",
+  "dateOfBirth": "1934-03-05T00:00:00Z",
+  "nationality": "American",
+  "description": "Nhà tâm lý học đạt Nobel"
+},
+{
+  "_id": {
+    "$oid": "6828fdd8418e3d06d5fbee10"
+  },
+  "authorId": "9",
+  "authorName": "Stephen R. Covey",
+  "dateOfBirth": "1932-10-24T00:00:00Z",
+  "nationality": "American",
+  "description": "Tác giả '7 thói quen' kinh điển"
+},
+{
+  "_id": {
+    "$oid": "6828fdd8418e3d06d5fbee0a"
+  },
+  "authorId": "3",
+  "authorName": "Dale Carnegie",
+  "dateOfBirth": "1888-11-24T00:00:00Z",
+  "nationality": "American",
+  "description": "Tác giả của Đắc Nhân Tâm"
+},
+{
+  "_id": {
+    "$oid": "6828fdd8418e3d06d5fbee0d"
+  },
+  "authorId": "6",
+  "authorName": "Rosie Nguyễn",
+  "dateOfBirth": "1987-06-01T00:00:00Z",
+  "nationality": "Vietnamese",
+  "description": "Tác giả truyền cảm hứng, nổi bật với Tuổi trẻ đáng giá bao nhiêu"
+},
+{
+  "_id": {
+    "$oid": "6828fdd8418e3d06d5fbee0e"
+  },
+  "authorId": "7",
+  "authorName": "Nguyễn Duy Cương",
+  "dateOfBirth": {
+    "$date": "1975-03-09T17:00:00.000Z"
+  },
+  "nationality": "Vietnamese",
+  "description": "Tác giả trong lĩnh vực quản trị và xã hội"
+},
+{
+  "_id": {
+    "$oid": "6828fdd8418e3d06d5fbee13"
+  },
+  "authorId": "12",
+  "authorName": "Fumitake Koga",
+  "dateOfBirth": "1973-01-01T00:00:00Z",
+  "nationality": "Japanese",
+  "description": "Đồng tác giả của Dám bị ghét"
+},
+{
+  "_id": {
+    "$oid": "6828fdd8418e3d06d5fbee14"
+  },
+  "authorId": "13",
+  "authorName": "Og Mandino",
+  "dateOfBirth": "1923-12-12T00:00:00Z",
+  "nationality": "American",
+  "description": "Tác giả truyền cảm hứng"
+},
+{
+  "_id": {
+    "$oid": "6828fdd8418e3d06d5fbee11"
+  },
+  "authorId": "10",
+  "authorName": "Adam Khoo",
+  "dateOfBirth": "1974-04-08T00:00:00Z",
+  "nationality": "Singaporean",
+  "description": "Doanh nhân, diễn giả, tác giả giáo dục nổi tiếng"
+},
+{
+  "_id": {
+    "$oid": "6828fdd8418e3d06d5fbee12"
+  },
+  "authorId": "11",
+  "authorName": "Ichiro Kishimi",
+  "dateOfBirth": "1956-01-01T00:00:00Z",
+  "nationality": "Japanese",
+  "description": "Đồng tác giả của Dám bị ghét"
+},
+{
+  "_id": {
+    "$oid": "6828fdd8418e3d06d5fbee08"
+  },
+  "authorId": "1",
+  "authorName": "Yuval Noah Harari",
+  "dateOfBirth": "1976-02-24T00:00:00Z",
+  "nationality": "Israel",
+  "description": "Tác giả nổi tiếng với các tác phẩm lịch sử và tương lai nhân loại"
+},
+{
+  "_id": {
+    "$oid": "6828fdd8418e3d06d5fbee0b"
+  },
+  "authorId": "4",
+  "authorName": "Paulo Coelho",
+  "dateOfBirth": "1947-08-24T00:00:00Z",
+  "nationality": "Brazilian",
+  "description": "Tác giả của Nhà Giả Kim"
+},
+{
+  "_id": {
+    "$oid": "6828fdd8418e3d06d5fbee0c"
+  },
+  "authorId": "5",
+  "authorName": "Robert T. Kiyosaki",
+  "dateOfBirth": "1947-04-08T00:00:00Z",
+  "nationality": "American",
+  "description": "Tác giả tài chính cá nhân nổi tiếng"
+},
+{
+  "_id": {
+    "$oid": "6828fdd8418e3d06d5fbee15"
+  },
+  "authorId": "14",
+  "authorName": "Keyes",
+  "dateOfBirth": "1960-01-01T00:00:00Z",
+  "nationality": "Chinese",
+  "description": "Tác giả Thiên tài bên trái kẻ điên bên phải"
+},
+{
+  "_id": {
+    "$oid": "6828fdd8418e3d06d5fbee16"
+  },
+  "authorId": "15",
+  "authorName": "Elon Musk",
+  "dateOfBirth": "1971-06-28T00:00:00Z",
+  "nationality": "American",
+  "description": "Doanh nhân công nghệ, thường được đưa vào ví dụ minh họa"
+}]

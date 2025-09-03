@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "6823a39d418e3d06d5fbe46f"
+  },
+  "username": "adminsys",
+  "password": "admin",
+  "role": "Admin",
+  "status": "Active"
+},
+{
+  "_id": {
+    "$oid": "6823ec38a61c96a861c2ea8d"
+  },
+  "username": "staff_ngocphung",
+  "password": "ngocphung",
+  "role": "Staff",
+  "status": "Active"
+},
+{
+  "_id": {
+    "$oid": "6824a968c01a3cb77c6d7b84"
+  },
+  "username": "staff_tien",
+  "password": "tien",
+  "role": "Staff",
+  "status": "Active"
+},
+{
+  "_id": {
+    "$oid": "6824ac35213980be5d973225"
+  },
+  "username": "staff_thuyquynh",
+  "password": "staff_thuyquynh",
+  "role": "Staff",
+  "status": "Inactive"
+}]

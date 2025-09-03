@@ -1,0 +1,354 @@
+[{
+  "_id": {
+    "$oid": "68290394418e3d06d5fbee3a"
+  },
+  "loanId": "L001",
+  "readerUsername": "21110001",
+  "bookId": "B001",
+  "borrowDate": {
+    "$date": "2025-04-01T09:00:00.000Z"
+  },
+  "dueDate": {
+    "$date": "2025-04-15T23:59:59.000Z"
+  },
+  "status": "RETURNED"
+},
+{
+  "_id": {
+    "$oid": "68290394418e3d06d5fbee3e"
+  },
+  "loanId": "L005",
+  "readerUsername": "21110005",
+  "bookId": "B005",
+  "borrowDate": {
+    "$date": "2025-04-05T11:15:00.000Z"
+  },
+  "dueDate": {
+    "$date": "2025-04-20T23:59:59.000Z"
+  },
+  "returnDate": null,
+  "status": "BORROWED"
+},
+{
+  "_id": {
+    "$oid": "68290394418e3d06d5fbee3b"
+  },
+  "loanId": "L002",
+  "readerUsername": "21110002",
+  "bookId": "B002",
+  "borrowDate": {
+    "$date": "2025-04-10T10:30:00.000Z"
+  },
+  "dueDate": {
+    "$date": "2025-04-24T23:59:59.000Z"
+  },
+  "returnDate": {
+    "$date": "2025-04-20T14:30:00.000Z"
+  },
+  "status": "RETURNED"
+},
+{
+  "_id": {
+    "$oid": "68290394418e3d06d5fbee3c"
+  },
+  "loanId": "L003",
+  "readerUsername": "21110003",
+  "bookId": "B003",
+  "borrowDate": {
+    "$date": "2025-04-15T13:00:00.000Z"
+  },
+  "dueDate": {
+    "$date": "2025-04-29T23:59:59.000Z"
+  },
+  "returnDate": null,
+  "status": "BORROWED"
+},
+{
+  "_id": {
+    "$oid": "68290394418e3d06d5fbee3d"
+  },
+  "loanId": "L004",
+  "readerUsername": "21110004",
+  "bookId": "B004",
+  "borrowDate": {
+    "$date": "2025-03-20T08:00:00.000Z"
+  },
+  "dueDate": {
+    "$date": "2025-04-03T23:59:59.000Z"
+  },
+  "returnDate": {
+    "$date": "2025-04-05T09:00:00.000Z"
+  },
+  "status": "OVERDUE"
+},
+{
+  "_id": {
+    "$oid": "682903e4418e3d06d5fbee40"
+  },
+  "loanId": "L007",
+  "readerUsername": "21110007",
+  "bookId": "B007",
+  "borrowDate": {
+    "$date": "2025-04-02T10:20:00.000Z"
+  },
+  "dueDate": {
+    "$date": "2025-04-16T23:59:59.000Z"
+  },
+  "returnDate": null,
+  "status": "OVERDUE"
+},
+{
+  "_id": {
+    "$oid": "682903e4418e3d06d5fbee44"
+  },
+  "loanId": "L011",
+  "readerUsername": "21110011",
+  "bookId": "B011",
+  "borrowDate": {
+    "$date": "2025-03-01T11:00:00.000Z"
+  },
+  "dueDate": {
+    "$date": "2025-03-15T23:59:59.000Z"
+  },
+  "returnDate": {
+    "$date": "2025-03-14T15:00:00.000Z"
+  },
+  "status": "RETURNED"
+},
+{
+  "_id": {
+    "$oid": "682903e4418e3d06d5fbee45"
+  },
+  "loanId": "L012",
+  "readerUsername": "21110012",
+  "bookId": "B012",
+  "borrowDate": {
+    "$date": "2025-04-03T14:00:00.000Z"
+  },
+  "dueDate": {
+    "$date": "2025-04-17T23:59:59.000Z"
+  },
+  "returnDate": null,
+  "status": "OVERDUE"
+},
+{
+  "_id": {
+    "$oid": "682903e4418e3d06d5fbee47"
+  },
+  "loanId": "L014",
+  "readerUsername": "21110014",
+  "bookId": "B014",
+  "borrowDate": {
+    "$date": "2025-02-25T10:00:00.000Z"
+  },
+  "dueDate": {
+    "$date": "2025-03-10T23:59:59.000Z"
+  },
+  "returnDate": {
+    "$date": "2025-03-09T17:00:00.000Z"
+  },
+  "status": "RETURNED"
+},
+{
+  "_id": {
+    "$oid": "682903e4418e3d06d5fbee48"
+  },
+  "loanId": "L015",
+  "readerUsername": "21110015",
+  "bookId": "B015",
+  "borrowDate": {
+    "$date": "2025-04-15T10:30:00.000Z"
+  },
+  "dueDate": {
+    "$date": "2025-04-29T23:59:59.000Z"
+  },
+  "returnDate": null,
+  "status": "BORROWED"
+},
+{
+  "_id": {
+    "$oid": "682903e4418e3d06d5fbee4b"
+  },
+  "loanId": "L018",
+  "readerUsername": "21110007",
+  "bookId": "B002",
+  "borrowDate": {
+    "$date": "2025-03-15T09:15:00.000Z"
+  },
+  "dueDate": {
+    "$date": "2025-03-29T23:59:59.000Z"
+  },
+  "returnDate": {
+    "$date": "2025-03-20T15:00:00.000Z"
+  },
+  "status": "RETURNED"
+},
+{
+  "_id": {
+    "$oid": "682903e4418e3d06d5fbee4c"
+  },
+  "loanId": "L019",
+  "readerUsername": "21110009",
+  "bookId": "B006",
+  "borrowDate": {
+    "$date": "2025-04-20T10:00:00.000Z"
+  },
+  "dueDate": {
+    "$date": "2025-05-04T23:59:59.000Z"
+  },
+  "returnDate": null,
+  "status": "BORROWED"
+},
+{
+  "_id": {
+    "$oid": "682903e4418e3d06d5fbee3f"
+  },
+  "loanId": "L006",
+  "readerUsername": "21110006",
+  "bookId": "B006",
+  "borrowDate": {
+    "$date": "2025-03-30T09:45:00.000Z"
+  },
+  "dueDate": {
+    "$date": "2025-04-13T23:59:59.000Z"
+  },
+  "returnDate": {
+    "$date": "2025-04-12T15:30:00.000Z"
+  },
+  "status": "RETURNED"
+},
+{
+  "_id": {
+    "$oid": "682903e4418e3d06d5fbee41"
+  },
+  "loanId": "L008",
+  "readerUsername": "21110008",
+  "bookId": "B008",
+  "borrowDate": {
+    "$date": "2025-04-12T14:00:00.000Z"
+  },
+  "dueDate": {
+    "$date": "2025-04-26T23:59:59.000Z"
+  },
+  "returnDate": null,
+  "status": "BORROWED"
+},
+{
+  "_id": {
+    "$oid": "682903e4418e3d06d5fbee42"
+  },
+  "loanId": "L009",
+  "readerUsername": "21110009",
+  "bookId": "B009",
+  "borrowDate": {
+    "$date": "2025-03-25T09:00:00.000Z"
+  },
+  "dueDate": {
+    "$date": "2025-04-08T23:59:59.000Z"
+  },
+  "returnDate": {
+    "$date": "2025-04-10T08:00:00.000Z"
+  },
+  "status": "OVERDUE"
+},
+{
+  "_id": {
+    "$oid": "682903e4418e3d06d5fbee43"
+  },
+  "loanId": "L010",
+  "readerUsername": "21110010",
+  "bookId": "B010",
+  "borrowDate": {
+    "$date": "2025-04-18T10:00:00.000Z"
+  },
+  "dueDate": {
+    "$date": "2025-05-02T23:59:59.000Z"
+  },
+  "returnDate": null,
+  "status": "BORROWED"
+},
+{
+  "_id": {
+    "$oid": "682903e4418e3d06d5fbee46"
+  },
+  "loanId": "L013",
+  "readerUsername": "21110013",
+  "bookId": "B013",
+  "borrowDate": {
+    "$date": "2025-04-10T08:30:00.000Z"
+  },
+  "dueDate": {
+    "$date": "2025-04-24T23:59:59.000Z"
+  },
+  "returnDate": null,
+  "status": "BORROWED"
+},
+{
+  "_id": {
+    "$oid": "682903e4418e3d06d5fbee4d"
+  },
+  "loanId": "L020",
+  "readerUsername": "21110014",
+  "bookId": "B007",
+  "borrowDate": {
+    "$date": "2025-02-01T10:00:00.000Z"
+  },
+  "dueDate": {
+    "$date": "2025-02-15T23:59:59.000Z"
+  },
+  "returnDate": {
+    "$date": "2025-03-01T10:00:00.000Z"
+  },
+  "status": "OVERDUE"
+},
+{
+  "_id": {
+    "$oid": "682903e4418e3d06d5fbee49"
+  },
+  "loanId": "L016",
+  "readerUsername": "21110001",
+  "bookId": "B005",
+  "borrowDate": {
+    "$date": "2025-03-10T09:00:00.000Z"
+  },
+  "dueDate": {
+    "$date": "2025-03-24T23:59:59.000Z"
+  },
+  "returnDate": {
+    "$date": "2025-05-25T12:00:00.000Z"
+  },
+  "status": "RETURNED"
+},
+{
+  "_id": {
+    "$oid": "6833217a4e5a33dbbc434d39"
+  },
+  "loanId": "L021",
+  "readerUsername": "21110319",
+  "bookId": "B005",
+  "borrowDate": {
+    "$date": "2025-05-25T13:55:24.007Z"
+  },
+  "dueDate": {
+    "$date": "2025-06-08T13:55:24.007Z"
+  },
+  "status": "RETURNED",
+  "returnDate": {
+    "$date": "2025-05-25T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6833d1fce0013ff8fdf511b7"
+  },
+  "loanId": "L022",
+  "readerUsername": "21110013",
+  "bookId": "B012",
+  "borrowDate": {
+    "$date": "2025-05-26T02:28:49.625Z"
+  },
+  "dueDate": {
+    "$date": "2025-06-09T02:28:49.625Z"
+  },
+  "status": "BORROWED"
+}]

@@ -1,0 +1,51 @@
+[{
+  "_id": {
+    "$oid": "6823ec38a61c96a861c2ea8c"
+  },
+  "username": "staff_ngocphung",
+  "staffName": "Cao Thị Ngọc Phụng",
+  "birthdate": {
+    "$date": "2019-07-13T17:00:00.000Z"
+  },
+  "phone": "0363181036",
+  "email": "phungcao.1811@gmail.com",
+  "address": "Thủ Đức, Hồ Chí Minh, Việt Nam ssdass",
+  "position": "Quản lý",
+  "hiredate": {
+    "$date": "2019-07-13T17:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6824a968c01a3cb77c6d7b83"
+  },
+  "username": "staff_tien",
+  "staffName": "Trần Văn Tiến",
+  "birthdate": {
+    "$date": "2003-11-17T17:00:00.000Z"
+  },
+  "phone": "03d34343552",
+  "email": "tientran@gmail.com",
+  "address": "Bình Dương, v",
+  "position": "Thủ Thư",
+  "hiredate": {
+    "$date": "2003-11-17T17:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6824ac35213980be5d973224"
+  },
+  "username": "staff_thuyquynh",
+  "staffName": "Đinh Thị Thúy Quỳnh",
+  "birthdate": {
+    "$date": "2003-11-17T17:00:00.000Z"
+  },
+  "phone": "035343644552",
+  "email": "thuyquynh@gmail.com",
+  "address": "Bình Dương, Việt Nam",
+  "position": "Thủ Thư",
+  "hiredate": {
+    "$date": "2003-11-17T17:00:00.000Z"
+  }
+}]
