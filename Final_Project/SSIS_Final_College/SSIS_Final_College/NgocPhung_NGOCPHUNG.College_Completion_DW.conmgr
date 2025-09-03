@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="NgocPhung_NGOCPHUNG.College_Completion_DW"
+  DTS:DTSID="{E933DDE2-04EA-4D9E-9F70-4D0261C4CC44}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=NgocPhung\NGOCPHUNG;Initial Catalog=College_Completion_DW;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-SSIS_Final_College-{E933DDE2-04EA-4D9E-9F70-4D0261C4CC44}NgocPhung\NGOCPHUNG.College_Completion_DW;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

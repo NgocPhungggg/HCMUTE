@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="DESKTOP-MCFN7IP_NGOCPHUNG.SSIS_NorthwindSalesDWStage"
+  DTS:DTSID="{57C8B8EA-6FC2-4E37-903C-9ED33AFBC42F}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=DESKTOP-MCFN7IP\NGOCPHUNG;Initial Catalog=SSIS_NorthwindSalesDWStage;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-21110276_NgocPhung_Northwind-ETL-{57C8B8EA-6FC2-4E37-903C-9ED33AFBC42F}DESKTOP-MCFN7IP\NGOCPHUNG.SSIS_NorthwindSalesDWSta;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
