@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AEFD5F76-740D-49F8-BDCD-51A14D8D939C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>User_Management</RootNamespace>
+    <AssemblyName>User_Management</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Oracle.ManagedDataAccess, Version=4.122.23.1, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Oracle.ManagedDataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.DirectoryServices.Protocols" />
+    <Reference Include="System.Formats.Asn1, Version=8.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\System.Formats.Asn1.8.0.1\lib\net462\System.Formats.Asn1.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Text.Json, Version=8.0.0.5, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL" />
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataSetOracle.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetOracle.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet_AllUser.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet_AllUser.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="formAudit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formAudit.Designer.cs">
+      <DependentUpon>formAudit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formCreateAlterUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formCreateAlterUser.Designer.cs">
+      <DependentUpon>formCreateAlterUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formInfo.Designer.cs">
+      <DependentUpon>formInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formLogin.Designer.cs">
+      <DependentUpon>formLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formMenuAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formMenuAdmin.Designer.cs">
+      <DependentUpon>formMenuAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formMenuUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formMenuUsers.Designer.cs">
+      <DependentUpon>formMenuUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formPrivileges.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formPrivileges.Designer.cs">
+      <DependentUpon>formPrivileges.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formProfiles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formProfiles.Designer.cs">
+      <DependentUpon>formProfiles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formRolePrivileges.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formRolePrivileges.Designer.cs">
+      <DependentUpon>formRolePrivileges.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formUserManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formUserManagement.Designer.cs">
+      <DependentUpon>formUserManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="formAudit.resx">
+      <DependentUpon>formAudit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formCreateAlterUser.resx">
+      <DependentUpon>formCreateAlterUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formInfo.resx">
+      <DependentUpon>formInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formLogin.resx">
+      <DependentUpon>formLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formMenuAdmin.resx">
+      <DependentUpon>formMenuAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formMenuUsers.resx">
+      <DependentUpon>formMenuUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formPrivileges.resx">
+      <DependentUpon>formPrivileges.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formProfiles.resx">
+      <DependentUpon>formProfiles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formRolePrivileges.resx">
+      <DependentUpon>formRolePrivileges.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formUserManagement.resx">
+      <DependentUpon>formUserManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="DataSetOracle.xsc">
+      <DependentUpon>DataSetOracle.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetOracle.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetOracle.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSetOracle.xss">
+      <DependentUpon>DataSetOracle.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet_AllUser.xsc">
+      <DependentUpon>DataSet_AllUser.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet_AllUser.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_AllUser.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet_AllUser.xss">
+      <DependentUpon>DataSet_AllUser.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backgroundInfo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backgroundLogin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backgroundMenuAmin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backgroundPrivileges.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backgroundRolePrivileges.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Business_Logic_Layer\Business_Logic_Layer.csproj">
+      <Project>{1a5d49f3-8647-4b2f-a1b4-62b2541a60ce}</Project>
+      <Name>Business_Logic_Layer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Data_Access_Layer\Data_Access_Layer.csproj">
+      <Project>{e3029f41-177e-45aa-aedb-6dba423ddcb8}</Project>
+      <Name>Data_Access_Layer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backgroundUserManagement.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backgroundProfiles.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_Logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_Back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backgroundNormal.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
