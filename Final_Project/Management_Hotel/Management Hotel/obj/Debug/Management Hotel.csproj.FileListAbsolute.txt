@@ -1,0 +1,95 @@
+W:\Coding\Window Form\Management Hotel\Management Hotel\obj\Debug\Management Hotel.csproj.AssemblyReference.cache
+W:\Coding\Window Form\Management Hotel\Management Hotel\obj\Debug\Management Hotel.csproj.SuggestedBindingRedirects.cache
+W:\Coding\Window Form\Management Hotel\Management Hotel\obj\Debug\Management_Hotel.Form_Login.resources
+W:\Coding\Window Form\Management Hotel\Management Hotel\obj\Debug\Management Hotel.csproj.GenerateResource.cache
+W:\Coding\Window Form\Management Hotel\Management Hotel\bin\Debug\Management Hotel.exe.config
+W:\Coding\Window Form\Management Hotel\Management Hotel\bin\Debug\Management Hotel.exe
+W:\Coding\Window Form\Management Hotel\Management Hotel\bin\Debug\Management Hotel.pdb
+W:\Coding\Window Form\Management Hotel\Management Hotel\obj\Debug\Management_Hotel.Properties.Resources.resources
+W:\Coding\Window Form\Management Hotel\Management Hotel\obj\Debug\Management Hotel.csproj.CoreCompileInputs.cache
+W:\Coding\Window Form\Management Hotel\Management Hotel\obj\Debug\Management Hotel.exe
+W:\Coding\Window Form\Management Hotel\Management Hotel\obj\Debug\Management Hotel.pdb
+W:\Coding\Window Form\Management Hotel\Management Hotel\obj\Debug\Management_Hotel.Form_MenuManager.resources
+W:\Coding\Window Form\Management Hotel\Management Hotel\obj\Debug\Management_Hotel.Form_ListReceptionists.resources
+W:\Coding\Window Form\Management Hotel\Management Hotel\obj\Debug\Management_Hotel.Form_ListJanitors.resources
+W:\Coding\Window Form\Management Hotel\Management Hotel\obj\Debug\Management_Hotel.Form_ManagerJanitors.resources
+W:\Coding\Window Form\Management Hotel\Management Hotel\obj\Debug\Management_Hotel.Form_MenuJanitor.resources
+W:\Coding\Window Form\Management Hotel\Management Hotel\obj\Debug\Management_Hotel.Form_MenuReceptionist.resources
+W:\Coding\Window Form\Management Hotel\Management Hotel\obj\Debug\Management_Hotel.Form_EditProfile.resources
+W:\Coding\Window Form\Management Hotel\Management Hotel\obj\Debug\Management_Hotel.Form_ChangePassword.resources
+W:\Coding\Window Form\Management Hotel\Management Hotel\obj\Debug\Management_Hotel.Form_ListAttendances.resources
+W:\Coding\Window Form\Management Hotel\Management Hotel\obj\Debug\Management_Hotel.Form_ListCustomers.resources
+W:\Coding\Window Form\Management Hotel\Management Hotel\obj\Debug\Management_Hotel.Form_ListRooms.resources
+W:\Coding\Window Form\Management Hotel\Management Hotel\obj\Debug\Management_Hotel.Form_ManageReceptionists.resources
+W:\Coding\Window Form\Management Hotel\Management Hotel\obj\Debug\Management_Hotel.Form_ManageRooms.resources
+W:\Coding\Window Form\Management Hotel\Management Hotel\obj\Debug\Management_Hotel.Form_ManageCustomer.resources
+W:\Coding\Window Form\Management Hotel\Management Hotel\obj\Debug\Management_Hotel.Form_Annoucement.resources
+W:\Coding\Window Form\Management Hotel\Management Hotel\obj\Debug\Management_Hotel.Form_ForgetPassword.resources
+W:\Coding\Window Form\Management Hotel\Management Hotel\obj\Debug\Management_Hotel.Form_Service.resources
+W:\Coding\Window Form\Management Hotel\Management Hotel\obj\Debug\Management_Hotel.Form_ReservedRoom.resources
+W:\Coding\Window Form\Management Hotel\Management Hotel\obj\Debug\Management_Hotel.Form_Salary.resources
+W:\Coding\Window Form\Management Hotel\Management Hotel\obj\Debug\Management_Hotel.Form_Bill.resources
+W:\Coding\Window Form\Management Hotel\Management Hotel\obj\Debug\Management_Hotel.Form_ReportRoom.resources
+W:\Coding\Window Form\Management Hotel\Management Hotel\obj\Debug\Management_Hotel.Form_ChartSales.resources
+W:\Coding\Window Form\Management Hotel\Management Hotel\bin\Debug\AForge.Imaging.dll
+W:\Coding\Window Form\Management Hotel\Management Hotel\bin\Debug\AForge.Video.DirectShow.dll
+W:\Coding\Window Form\Management Hotel\Management Hotel\bin\Debug\AForge.Video.dll
+W:\Coding\Window Form\Management Hotel\Management Hotel\bin\Debug\AForge.dll
+W:\Coding\Window Form\Management Hotel\Management Hotel\bin\Debug\AForge.Math.dll
+W:\Coding\Window Form\Management Hotel\Management Hotel\bin\Debug\AForge.Imaging.xml
+W:\Coding\Window Form\Management Hotel\Management Hotel\bin\Debug\AForge.Video.xml
+W:\Coding\Window Form\Management Hotel\Management Hotel\bin\Debug\AForge.Video.DirectShow.xml
+W:\Coding\Window Form\Management Hotel\Management Hotel\bin\Debug\AForge.xml
+W:\Coding\Window Form\Management Hotel\Management Hotel\bin\Debug\AForge.Math.xml
+W:\Coding\Window Form\Management Hotel\Management Hotel\obj\Debug\Management_Hotel.Form_TakePicture.resources
+W:\Coding\Window Form\Management Hotel\Management Hotel\obj\Debug\Management Hotel.csproj.CopyComplete
+W:\Coding\Window Form\Management Hotel\Management Hotel\obj\Debug\Management_Hotel.Form_Events.resources
+W:\Coding\Window Form\Management Hotel\Management Hotel\bin\Debug\itextsharp.dll
+W:\Coding\Window Form\Management Hotel\Management Hotel\bin\Debug\BouncyCastle.Crypto.dll
+W:\Coding\Window Form\Management Hotel\Management Hotel\obj\Debug\Management Hotel.exe.config
+W:\Coding\Window Form\Management Hotel\Management Hotel\obj\Debug\Management_Hotel.Form_SalesForADay.resources
+D:\WIPR (Windows Programming)\Management Hotel\Management Hotel\bin\Debug\Management Hotel.exe.config
+D:\WIPR (Windows Programming)\Management Hotel\Management Hotel\bin\Debug\Management Hotel.exe
+D:\WIPR (Windows Programming)\Management Hotel\Management Hotel\bin\Debug\Management Hotel.pdb
+D:\WIPR (Windows Programming)\Management Hotel\Management Hotel\bin\Debug\AForge.dll
+D:\WIPR (Windows Programming)\Management Hotel\Management Hotel\bin\Debug\AForge.Math.dll
+D:\WIPR (Windows Programming)\Management Hotel\Management Hotel\bin\Debug\AForge.Imaging.xml
+D:\WIPR (Windows Programming)\Management Hotel\Management Hotel\bin\Debug\AForge.Video.xml
+D:\WIPR (Windows Programming)\Management Hotel\Management Hotel\bin\Debug\AForge.Video.DirectShow.xml
+D:\WIPR (Windows Programming)\Management Hotel\Management Hotel\bin\Debug\AForge.xml
+D:\WIPR (Windows Programming)\Management Hotel\Management Hotel\bin\Debug\AForge.Math.xml
+D:\WIPR (Windows Programming)\Management Hotel\Management Hotel\obj\Debug\Management Hotel.csproj.AssemblyReference.cache
+D:\WIPR (Windows Programming)\Management Hotel\Management Hotel\obj\Debug\Management Hotel.csproj.SuggestedBindingRedirects.cache
+D:\WIPR (Windows Programming)\Management Hotel\Management Hotel\obj\Debug\Management Hotel.exe.config
+D:\WIPR (Windows Programming)\Management Hotel\Management Hotel\obj\Debug\Management_Hotel.Form_Events.resources
+D:\WIPR (Windows Programming)\Management Hotel\Management Hotel\obj\Debug\Management_Hotel.Form_Annoucement.resources
+D:\WIPR (Windows Programming)\Management Hotel\Management Hotel\obj\Debug\Management_Hotel.Form_Bill.resources
+D:\WIPR (Windows Programming)\Management Hotel\Management Hotel\obj\Debug\Management_Hotel.Form_ChangePassword.resources
+D:\WIPR (Windows Programming)\Management Hotel\Management Hotel\obj\Debug\Management_Hotel.Form_ChartSales.resources
+D:\WIPR (Windows Programming)\Management Hotel\Management Hotel\obj\Debug\Management_Hotel.Form_EditProfile.resources
+D:\WIPR (Windows Programming)\Management Hotel\Management Hotel\obj\Debug\Management_Hotel.Form_ForgetPassword.resources
+D:\WIPR (Windows Programming)\Management Hotel\Management Hotel\obj\Debug\Management_Hotel.Form_ListAttendances.resources
+D:\WIPR (Windows Programming)\Management Hotel\Management Hotel\obj\Debug\Management_Hotel.Form_ListCustomers.resources
+D:\WIPR (Windows Programming)\Management Hotel\Management Hotel\obj\Debug\Management_Hotel.Form_ListJanitors.resources
+D:\WIPR (Windows Programming)\Management Hotel\Management Hotel\obj\Debug\Management_Hotel.Form_ListReceptionists.resources
+D:\WIPR (Windows Programming)\Management Hotel\Management Hotel\obj\Debug\Management_Hotel.Form_ListRooms.resources
+D:\WIPR (Windows Programming)\Management Hotel\Management Hotel\obj\Debug\Management_Hotel.Form_Login.resources
+D:\WIPR (Windows Programming)\Management Hotel\Management Hotel\obj\Debug\Management_Hotel.Form_ManageCustomer.resources
+D:\WIPR (Windows Programming)\Management Hotel\Management Hotel\obj\Debug\Management_Hotel.Form_ManageReceptionists.resources
+D:\WIPR (Windows Programming)\Management Hotel\Management Hotel\obj\Debug\Management_Hotel.Form_ManagerJanitors.resources
+D:\WIPR (Windows Programming)\Management Hotel\Management Hotel\obj\Debug\Management_Hotel.Form_ManageRooms.resources
+D:\WIPR (Windows Programming)\Management Hotel\Management Hotel\obj\Debug\Management_Hotel.Form_MenuJanitor.resources
+D:\WIPR (Windows Programming)\Management Hotel\Management Hotel\obj\Debug\Management_Hotel.Form_MenuManager.resources
+D:\WIPR (Windows Programming)\Management Hotel\Management Hotel\obj\Debug\Management_Hotel.Form_MenuReceptionist.resources
+D:\WIPR (Windows Programming)\Management Hotel\Management Hotel\obj\Debug\Management_Hotel.Form_ReportRoom.resources
+D:\WIPR (Windows Programming)\Management Hotel\Management Hotel\obj\Debug\Management_Hotel.Form_ReservedRoom.resources
+D:\WIPR (Windows Programming)\Management Hotel\Management Hotel\obj\Debug\Management_Hotel.Form_Salary.resources
+D:\WIPR (Windows Programming)\Management Hotel\Management Hotel\obj\Debug\Management_Hotel.Form_SalesForADay.resources
+D:\WIPR (Windows Programming)\Management Hotel\Management Hotel\obj\Debug\Management_Hotel.Form_Service.resources
+D:\WIPR (Windows Programming)\Management Hotel\Management Hotel\obj\Debug\Management_Hotel.Form_TakePicture.resources
+D:\WIPR (Windows Programming)\Management Hotel\Management Hotel\obj\Debug\Management_Hotel.Properties.Resources.resources
+D:\WIPR (Windows Programming)\Management Hotel\Management Hotel\obj\Debug\Management Hotel.csproj.GenerateResource.cache
+D:\WIPR (Windows Programming)\Management Hotel\Management Hotel\obj\Debug\Management Hotel.csproj.CoreCompileInputs.cache
+D:\WIPR (Windows Programming)\Management Hotel\Management Hotel\obj\Debug\Management Hotel.csproj.CopyComplete
+D:\WIPR (Windows Programming)\Management Hotel\Management Hotel\obj\Debug\Management Hotel.exe
+D:\WIPR (Windows Programming)\Management Hotel\Management Hotel\obj\Debug\Management Hotel.pdb
