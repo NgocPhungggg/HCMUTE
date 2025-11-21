@@ -1,0 +1,12 @@
+numpy
+streamlit
+opencv-python
+joblib
+tensorflow
+sklearn
+meadiapie
+random
+argparse
+itertools
+csv
+threading
