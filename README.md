@@ -1,4 +1,4 @@
-This repository stores the study materials and assignments of Thi Ngoc Phung Cao, a student of Ho Chi Minh City University of Technology and Education (HCMUTE), VietnamVietnam.
+This repository stores the study materials and assignments of Seraphina Phung Cao, a student of Ho Chi Minh City University of Technology and Engineering (HCMUTE), Vietnam.
 
 The repository is organized into separate branches, each corresponding to a specific course taken during the exchange program:
 
@@ -24,7 +24,7 @@ Each branch contains lecture notes, lab exercises, reports, and project files re
 
 ----------------------------------------------------------------------
 
-Kho lưu trữ này chứa tài liệu học tập và bài tập của Thi Ngọc Phụng Cao, sinh viên Trường Đại học Sư phạm Kỹ thuật TP. Hồ Chí Minh (HCMUTE), Việt Nam.
+Kho lưu trữ này chứa tài liệu học tập và bài tập của Cao Thị Ngọc Phụng, sinh viên Trường Đại học Công nghệ Kỹ thuật TP. Hồ Chí Minh (HCMUTE), Việt Nam.
 
 Kho lưu trữ được tổ chức thành các nhánh riêng (branches), mỗi nhánh tương ứng với một học phần trong chương trình trao đổi:
 
